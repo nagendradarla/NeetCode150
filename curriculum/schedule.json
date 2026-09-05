@@ -1,0 +1,4298 @@
+{
+  "meta": {
+    "name": "NeetCode 150 Daily Practice",
+    "practice_problems_per_day": 2,
+    "similar_per_day": 1,
+    "revision_every_n_calendar_days": 7,
+    "total_calendar_days": 87,
+    "total_practice_days": 75,
+    "total_revision_days": 12,
+    "estimated_weeks": 12.4,
+    "pace_note": "2 NeetCode problems + 1 similar per practice day; 1 revision day every week. ~12\u201313 weeks to finish all 150."
+  },
+  "pattern_day_ranges": {
+    "Arrays & Hashing": {
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "first": 1,
+      "last": 5
+    },
+    "Two Pointers": {
+      "days": [
+        5,
+        6,
+        8
+      ],
+      "first": 5,
+      "last": 8
+    },
+    "Sliding Window": {
+      "days": [
+        9,
+        10,
+        11
+      ],
+      "first": 9,
+      "last": 11
+    },
+    "Stack": {
+      "days": [
+        12,
+        13,
+        15,
+        16
+      ],
+      "first": 12,
+      "last": 16
+    },
+    "Binary Search": {
+      "days": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "first": 16,
+      "last": 19
+    },
+    "Linked List": {
+      "days": [
+        20,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "first": 20,
+      "last": 26
+    },
+    "Trees": {
+      "days": [
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "first": 26,
+      "last": 34
+    },
+    "Tries": {
+      "days": [
+        36,
+        37
+      ],
+      "first": 36,
+      "last": 37
+    },
+    "Heap / Priority Queue": {
+      "days": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "first": 37,
+      "last": 40
+    },
+    "Backtracking": {
+      "days": [
+        41,
+        43,
+        44,
+        45,
+        46
+      ],
+      "first": 41,
+      "last": 46
+    },
+    "Graphs": {
+      "days": [
+        46,
+        47,
+        48,
+        50,
+        51,
+        52,
+        53
+      ],
+      "first": 46,
+      "last": 53
+    },
+    "Advanced Graphs": {
+      "days": [
+        54,
+        55,
+        57
+      ],
+      "first": 54,
+      "last": 57
+    },
+    "1-D Dynamic Programming": {
+      "days": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        64
+      ],
+      "first": 58,
+      "last": 64
+    },
+    "2-D Dynamic Programming": {
+      "days": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        71
+      ],
+      "first": 65,
+      "last": 71
+    },
+    "Greedy": {
+      "days": [
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "first": 71,
+      "last": 75
+    },
+    "Intervals": {
+      "days": [
+        75,
+        76,
+        78,
+        79
+      ],
+      "first": 75,
+      "last": 79
+    },
+    "Math & Geometry": {
+      "days": [
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "first": 79,
+      "last": 83
+    },
+    "Bit Manipulation": {
+      "days": [
+        83,
+        85,
+        86,
+        87
+      ],
+      "first": 83,
+      "last": 87
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "type": "practice",
+      "patterns": [
+        "Arrays & Hashing"
+      ],
+      "problems": [
+        {
+          "nc": 1,
+          "lc": 217,
+          "title": "Contains Duplicate",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Easy",
+          "explanation": "Use a HashSet while iterating. If a value is already in the set, return true. O(n) time / O(n) space.",
+          "url": "https://leetcode.com/problems/contains-duplicate/",
+          "premium": false
+        },
+        {
+          "nc": 2,
+          "lc": 242,
+          "title": "Valid Anagram",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Easy",
+          "explanation": "Count character frequencies (array of size 26 or HashMap). Two strings are anagrams iff counts match.",
+          "url": "https://leetcode.com/problems/valid-anagram/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Contains Duplicate II",
+          "lc": 219,
+          "pattern": "Arrays & Hashing",
+          "url": "https://leetcode.com/problems/contains-duplicate-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 2,
+      "type": "practice",
+      "patterns": [
+        "Arrays & Hashing"
+      ],
+      "problems": [
+        {
+          "nc": 3,
+          "lc": 1,
+          "title": "Two Sum",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Easy",
+          "explanation": "One-pass HashMap: for each num, check if target-num exists. Store value\u2192index as you go.",
+          "url": "https://leetcode.com/problems/two-sum/",
+          "premium": false
+        },
+        {
+          "nc": 4,
+          "lc": 49,
+          "title": "Group Anagrams",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Medium",
+          "explanation": "Key each word by sorted chars or by a frequency signature; group into a Map<String, List>.",
+          "url": "https://leetcode.com/problems/group-anagrams/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "4Sum",
+          "lc": 18,
+          "pattern": "Arrays & Hashing",
+          "url": "https://leetcode.com/problems/4sum/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 3,
+      "type": "practice",
+      "patterns": [
+        "Arrays & Hashing"
+      ],
+      "problems": [
+        {
+          "nc": 5,
+          "lc": 347,
+          "title": "Top K Frequent Elements",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Medium",
+          "explanation": "Count frequencies, then bucket-sort by count (or min-heap of size k). Avoid full sort when possible.",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+          "premium": false
+        },
+        {
+          "nc": 6,
+          "lc": 238,
+          "title": "Product of Array Except Self",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Medium",
+          "explanation": "Prefix products left\u2192right, then multiply by suffix products right\u2192left. O(n) without division.",
+          "url": "https://leetcode.com/problems/product-of-array-except-self/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Top K Frequent Words",
+          "lc": 692,
+          "pattern": "Arrays & Hashing",
+          "url": "https://leetcode.com/problems/top-k-frequent-words/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 4,
+      "type": "practice",
+      "patterns": [
+        "Arrays & Hashing"
+      ],
+      "problems": [
+        {
+          "nc": 7,
+          "lc": 36,
+          "title": "Valid Sudoku",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Medium",
+          "explanation": "Track seen digits in rows, cols, and 3\u00d73 boxes with HashSets (or bitmasks). Reject duplicates.",
+          "url": "https://leetcode.com/problems/valid-sudoku/",
+          "premium": false
+        },
+        {
+          "nc": 8,
+          "lc": 271,
+          "title": "Encode and Decode Strings",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Medium",
+          "explanation": "Premium. Encode with length#string (or delimiter escaping) so decode can split unambiguously.",
+          "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+          "premium": true
+        }
+      ],
+      "similar": [
+        {
+          "title": "Sudoku Solver",
+          "lc": 37,
+          "pattern": "Arrays & Hashing",
+          "url": "https://leetcode.com/problems/sudoku-solver/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 5,
+      "type": "practice",
+      "patterns": [
+        "Arrays & Hashing",
+        "Two Pointers"
+      ],
+      "problems": [
+        {
+          "nc": 9,
+          "lc": 128,
+          "title": "Longest Consecutive Sequence",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Medium",
+          "explanation": "Put nums in a HashSet. Only start counting from numbers with no left neighbor (n-1 missing).",
+          "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+          "premium": false
+        },
+        {
+          "nc": 10,
+          "lc": 125,
+          "title": "Valid Palindrome",
+          "pattern": "Two Pointers",
+          "difficulty": "Easy",
+          "explanation": "Left/right pointers; skip non-alphanumeric; compare lowercased chars until they meet.",
+          "url": "https://leetcode.com/problems/valid-palindrome/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Longest Consecutive Sequence II (tree)",
+          "lc": 549,
+          "pattern": "Arrays & Hashing",
+          "url": "https://leetcode.com/problems/longest-consecutive-sequence-ii-tree/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 6,
+      "type": "practice",
+      "patterns": [
+        "Two Pointers"
+      ],
+      "problems": [
+        {
+          "nc": 11,
+          "lc": 167,
+          "title": "Two Sum II Input Array Is Sorted",
+          "pattern": "Two Pointers",
+          "difficulty": "Medium",
+          "explanation": "Sorted array: left+right. Move left if sum too small, right if too large. O(n) two pointers.",
+          "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+          "premium": false
+        },
+        {
+          "nc": 12,
+          "lc": 15,
+          "title": "3Sum",
+          "pattern": "Two Pointers",
+          "difficulty": "Medium",
+          "explanation": "Sort, fix i, then two-pointer for target -nums[i]. Skip duplicates carefully.",
+          "url": "https://leetcode.com/problems/3sum/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "3Sum Closest",
+          "lc": 16,
+          "pattern": "Two Pointers",
+          "url": "https://leetcode.com/problems/3sum-closest/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 7,
+      "type": "revision",
+      "patterns": [
+        "Arrays & Hashing",
+        "Two Pointers"
+      ],
+      "problems": [
+        {
+          "nc": 9,
+          "lc": 128,
+          "title": "Longest Consecutive Sequence",
+          "pattern": "Arrays & Hashing",
+          "difficulty": "Medium",
+          "explanation": "Put nums in a HashSet. Only start counting from numbers with no left neighbor (n-1 missing).",
+          "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+        },
+        {
+          "nc": 10,
+          "lc": 125,
+          "title": "Valid Palindrome",
+          "pattern": "Two Pointers",
+          "difficulty": "Easy",
+          "explanation": "Left/right pointers; skip non-alphanumeric; compare lowercased chars until they meet.",
+          "url": "https://leetcode.com/problems/valid-palindrome/"
+        },
+        {
+          "nc": 11,
+          "lc": 167,
+          "title": "Two Sum II Input Array Is Sorted",
+          "pattern": "Two Pointers",
+          "difficulty": "Medium",
+          "explanation": "Sorted array: left+right. Move left if sum too small, right if too large. O(n) two pointers.",
+          "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+        },
+        {
+          "nc": 12,
+          "lc": 15,
+          "title": "3Sum",
+          "pattern": "Two Pointers",
+          "difficulty": "Medium",
+          "explanation": "Sort, fix i, then two-pointer for target -nums[i]. Skip duplicates carefully.",
+          "url": "https://leetcode.com/problems/3sum/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 8,
+      "type": "practice",
+      "patterns": [
+        "Two Pointers"
+      ],
+      "problems": [
+        {
+          "nc": 13,
+          "lc": 11,
+          "title": "Container With Most Water",
+          "pattern": "Two Pointers",
+          "difficulty": "Medium",
+          "explanation": "Widen from ends; area = min(h[l],h[r])*(r-l). Move the shorter side inward.",
+          "url": "https://leetcode.com/problems/container-with-most-water/",
+          "premium": false
+        },
+        {
+          "nc": 14,
+          "lc": 42,
+          "title": "Trapping Rain Water",
+          "pattern": "Two Pointers",
+          "difficulty": "Hard",
+          "explanation": "Two pointers with leftMax/rightMax: water at i = min(leftMax,rightMax)-height[i]. Or prefix/suffix max arrays.",
+          "url": "https://leetcode.com/problems/trapping-rain-water/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Trapping Rain Water II",
+          "lc": 407,
+          "pattern": "Two Pointers",
+          "url": "https://leetcode.com/problems/trapping-rain-water-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 9,
+      "type": "practice",
+      "patterns": [
+        "Sliding Window"
+      ],
+      "problems": [
+        {
+          "nc": 15,
+          "lc": 121,
+          "title": "Best Time to Buy and Sell Stock",
+          "pattern": "Sliding Window",
+          "difficulty": "Easy",
+          "explanation": "Track min price so far; max profit = price - minPrice. One pass sliding min.",
+          "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+          "premium": false
+        },
+        {
+          "nc": 16,
+          "lc": 3,
+          "title": "Longest Substring Without Repeating Characters",
+          "pattern": "Sliding Window",
+          "difficulty": "Medium",
+          "explanation": "Expand right; shrink left when duplicate appears (map last index or set). Track max window length.",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Best Time to Buy and Sell Stock II",
+          "lc": 122,
+          "pattern": "Sliding Window",
+          "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 10,
+      "type": "practice",
+      "patterns": [
+        "Sliding Window"
+      ],
+      "problems": [
+        {
+          "nc": 17,
+          "lc": 424,
+          "title": "Longest Repeating Character Replacement",
+          "pattern": "Sliding Window",
+          "difficulty": "Medium",
+          "explanation": "Window valid if windowLen - maxFreq <= k. Expand right; shrink left when invalid.",
+          "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+          "premium": false
+        },
+        {
+          "nc": 18,
+          "lc": 567,
+          "title": "Permutation in String",
+          "pattern": "Sliding Window",
+          "difficulty": "Medium",
+          "explanation": "Fixed window of len(s1): maintain frequency match count. Slide across s2.",
+          "url": "https://leetcode.com/problems/permutation-in-string/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Max Consecutive Ones III",
+          "lc": 1004,
+          "pattern": "Sliding Window",
+          "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 11,
+      "type": "practice",
+      "patterns": [
+        "Sliding Window"
+      ],
+      "problems": [
+        {
+          "nc": 19,
+          "lc": 76,
+          "title": "Minimum Window Substring",
+          "pattern": "Sliding Window",
+          "difficulty": "Hard",
+          "explanation": "Expand until t is covered; shrink to minimize. Track need/have counts of required chars.",
+          "url": "https://leetcode.com/problems/minimum-window-substring/",
+          "premium": false
+        },
+        {
+          "nc": 20,
+          "lc": 239,
+          "title": "Sliding Window Maximum",
+          "pattern": "Sliding Window",
+          "difficulty": "Hard",
+          "explanation": "Monotonic decreasing deque of indices. Front is always max of current window.",
+          "url": "https://leetcode.com/problems/sliding-window-maximum/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Smallest Range Covering Elements from K Lists",
+          "lc": 632,
+          "pattern": "Sliding Window",
+          "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 12,
+      "type": "practice",
+      "patterns": [
+        "Stack"
+      ],
+      "problems": [
+        {
+          "nc": 21,
+          "lc": 20,
+          "title": "Valid Parentheses",
+          "pattern": "Stack",
+          "difficulty": "Easy",
+          "explanation": "Push opens; on close, pop and match. Stack empty at end \u21d2 valid.",
+          "url": "https://leetcode.com/problems/valid-parentheses/",
+          "premium": false
+        },
+        {
+          "nc": 22,
+          "lc": 155,
+          "title": "Min Stack",
+          "pattern": "Stack",
+          "difficulty": "Medium",
+          "explanation": "Two stacks (or pairs): values + current mins. Push/pop keep min in O(1).",
+          "url": "https://leetcode.com/problems/min-stack/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Remove Invalid Parentheses",
+          "lc": 301,
+          "pattern": "Stack",
+          "url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 13,
+      "type": "practice",
+      "patterns": [
+        "Stack"
+      ],
+      "problems": [
+        {
+          "nc": 23,
+          "lc": 150,
+          "title": "Evaluate Reverse Polish Notation",
+          "pattern": "Stack",
+          "difficulty": "Medium",
+          "explanation": "Push numbers; on operator, pop two, apply, push result. Classic postfix evaluation.",
+          "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+          "premium": false
+        },
+        {
+          "nc": 24,
+          "lc": 22,
+          "title": "Generate Parentheses",
+          "pattern": "Stack",
+          "difficulty": "Medium",
+          "explanation": "Backtrack with open/close counts: add '(' if open < n; add ')' if close < open.",
+          "url": "https://leetcode.com/problems/generate-parentheses/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Basic Calculator",
+          "lc": 224,
+          "pattern": "Stack",
+          "url": "https://leetcode.com/problems/basic-calculator/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 14,
+      "type": "revision",
+      "patterns": [
+        "Stack"
+      ],
+      "problems": [
+        {
+          "nc": 21,
+          "lc": 20,
+          "title": "Valid Parentheses",
+          "pattern": "Stack",
+          "difficulty": "Easy",
+          "explanation": "Push opens; on close, pop and match. Stack empty at end \u21d2 valid.",
+          "url": "https://leetcode.com/problems/valid-parentheses/"
+        },
+        {
+          "nc": 22,
+          "lc": 155,
+          "title": "Min Stack",
+          "pattern": "Stack",
+          "difficulty": "Medium",
+          "explanation": "Two stacks (or pairs): values + current mins. Push/pop keep min in O(1).",
+          "url": "https://leetcode.com/problems/min-stack/"
+        },
+        {
+          "nc": 23,
+          "lc": 150,
+          "title": "Evaluate Reverse Polish Notation",
+          "pattern": "Stack",
+          "difficulty": "Medium",
+          "explanation": "Push numbers; on operator, pop two, apply, push result. Classic postfix evaluation.",
+          "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+        },
+        {
+          "nc": 24,
+          "lc": 22,
+          "title": "Generate Parentheses",
+          "pattern": "Stack",
+          "difficulty": "Medium",
+          "explanation": "Backtrack with open/close counts: add '(' if open < n; add ')' if close < open.",
+          "url": "https://leetcode.com/problems/generate-parentheses/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 15,
+      "type": "practice",
+      "patterns": [
+        "Stack"
+      ],
+      "problems": [
+        {
+          "nc": 25,
+          "lc": 739,
+          "title": "Daily Temperatures",
+          "pattern": "Stack",
+          "difficulty": "Medium",
+          "explanation": "Monotonic decreasing stack of indices. When warmer day found, pop and set wait days.",
+          "url": "https://leetcode.com/problems/daily-temperatures/",
+          "premium": false
+        },
+        {
+          "nc": 26,
+          "lc": 853,
+          "title": "Car Fleet",
+          "pattern": "Stack",
+          "difficulty": "Medium",
+          "explanation": "Sort by position desc. Time to target = (target-pos)/speed. Fleets merge if behind catches front.",
+          "url": "https://leetcode.com/problems/car-fleet/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Next Greater Element I",
+          "lc": 496,
+          "pattern": "Stack",
+          "url": "https://leetcode.com/problems/next-greater-element-i/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 16,
+      "type": "practice",
+      "patterns": [
+        "Binary Search",
+        "Stack"
+      ],
+      "problems": [
+        {
+          "nc": 27,
+          "lc": 84,
+          "title": "Largest Rectangle in Histogram",
+          "pattern": "Stack",
+          "difficulty": "Hard",
+          "explanation": "Monotonic increasing stack of indices. When height drops, pop and compute width\u00d7height areas.",
+          "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+          "premium": false
+        },
+        {
+          "nc": 28,
+          "lc": 704,
+          "title": "Binary Search",
+          "pattern": "Binary Search",
+          "difficulty": "Easy",
+          "explanation": "Classic mid = lo+(hi-lo)/2. Shrink half until found or lo>hi.",
+          "url": "https://leetcode.com/problems/binary-search/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Maximal Rectangle",
+          "lc": 85,
+          "pattern": "Stack",
+          "url": "https://leetcode.com/problems/maximal-rectangle/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 17,
+      "type": "practice",
+      "patterns": [
+        "Binary Search"
+      ],
+      "problems": [
+        {
+          "nc": 29,
+          "lc": 74,
+          "title": "Search a 2D Matrix",
+          "pattern": "Binary Search",
+          "difficulty": "Medium",
+          "explanation": "Treat matrix as sorted 1D array: mid \u2192 row=mid/cols, col=mid%cols. Or binary search row then col.",
+          "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+          "premium": false
+        },
+        {
+          "nc": 30,
+          "lc": 875,
+          "title": "Koko Eating Bananas",
+          "pattern": "Binary Search",
+          "difficulty": "Medium",
+          "explanation": "Binary search speed k in [1, max(pile)]. Feasible if hoursNeeded(k) <= h.",
+          "url": "https://leetcode.com/problems/koko-eating-bananas/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Search a 2D Matrix II",
+          "lc": 240,
+          "pattern": "Binary Search",
+          "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 18,
+      "type": "practice",
+      "patterns": [
+        "Binary Search"
+      ],
+      "problems": [
+        {
+          "nc": 31,
+          "lc": 153,
+          "title": "Find Minimum in Rotated Sorted Array",
+          "pattern": "Binary Search",
+          "difficulty": "Medium",
+          "explanation": "Compare mid with right: if nums[mid] > nums[hi], min is in right half; else left (including mid).",
+          "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+          "premium": false
+        },
+        {
+          "nc": 32,
+          "lc": 33,
+          "title": "Search in Rotated Sorted Array",
+          "pattern": "Binary Search",
+          "difficulty": "Medium",
+          "explanation": "One sorted half each step. Decide which half is sorted; check if target lies there.",
+          "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Find Minimum in Rotated Sorted Array II",
+          "lc": 154,
+          "pattern": "Binary Search",
+          "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 19,
+      "type": "practice",
+      "patterns": [
+        "Binary Search"
+      ],
+      "problems": [
+        {
+          "nc": 33,
+          "lc": 981,
+          "title": "Time Based Key-Value Store",
+          "pattern": "Binary Search",
+          "difficulty": "Medium",
+          "explanation": "Map key \u2192 list of (timestamp, value) sorted by time. Binary search latest \u2264 timestamp.",
+          "url": "https://leetcode.com/problems/time-based-key-value-store/",
+          "premium": false
+        },
+        {
+          "nc": 34,
+          "lc": 4,
+          "title": "Median of Two Sorted Arrays",
+          "pattern": "Binary Search",
+          "difficulty": "Hard",
+          "explanation": "Binary search partition on smaller array so left halves \u2264 right halves. O(log(min(m,n))).",
+          "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Snapshot Array",
+          "lc": 1146,
+          "pattern": "Binary Search",
+          "url": "https://leetcode.com/problems/snapshot-array/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 20,
+      "type": "practice",
+      "patterns": [
+        "Linked List"
+      ],
+      "problems": [
+        {
+          "nc": 35,
+          "lc": 206,
+          "title": "Reverse Linked List",
+          "pattern": "Linked List",
+          "difficulty": "Easy",
+          "explanation": "Iterative: prev/curr/next pointers. Or recursive reverse of rest then link.",
+          "url": "https://leetcode.com/problems/reverse-linked-list/",
+          "premium": false
+        },
+        {
+          "nc": 36,
+          "lc": 21,
+          "title": "Merge Two Sorted Lists",
+          "pattern": "Linked List",
+          "difficulty": "Easy",
+          "explanation": "Dummy head; always attach the smaller of list1/list2. Append remainder.",
+          "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Reverse Linked List II",
+          "lc": 92,
+          "pattern": "Linked List",
+          "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 21,
+      "type": "revision",
+      "patterns": [
+        "Binary Search",
+        "Linked List"
+      ],
+      "problems": [
+        {
+          "nc": 33,
+          "lc": 981,
+          "title": "Time Based Key-Value Store",
+          "pattern": "Binary Search",
+          "difficulty": "Medium",
+          "explanation": "Map key \u2192 list of (timestamp, value) sorted by time. Binary search latest \u2264 timestamp.",
+          "url": "https://leetcode.com/problems/time-based-key-value-store/"
+        },
+        {
+          "nc": 34,
+          "lc": 4,
+          "title": "Median of Two Sorted Arrays",
+          "pattern": "Binary Search",
+          "difficulty": "Hard",
+          "explanation": "Binary search partition on smaller array so left halves \u2264 right halves. O(log(min(m,n))).",
+          "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+        },
+        {
+          "nc": 35,
+          "lc": 206,
+          "title": "Reverse Linked List",
+          "pattern": "Linked List",
+          "difficulty": "Easy",
+          "explanation": "Iterative: prev/curr/next pointers. Or recursive reverse of rest then link.",
+          "url": "https://leetcode.com/problems/reverse-linked-list/"
+        },
+        {
+          "nc": 36,
+          "lc": 21,
+          "title": "Merge Two Sorted Lists",
+          "pattern": "Linked List",
+          "difficulty": "Easy",
+          "explanation": "Dummy head; always attach the smaller of list1/list2. Append remainder.",
+          "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 22,
+      "type": "practice",
+      "patterns": [
+        "Linked List"
+      ],
+      "problems": [
+        {
+          "nc": 37,
+          "lc": 143,
+          "title": "Reorder List",
+          "pattern": "Linked List",
+          "difficulty": "Medium",
+          "explanation": "Find mid, reverse second half, merge alternate nodes from both halves.",
+          "url": "https://leetcode.com/problems/reorder-list/",
+          "premium": false
+        },
+        {
+          "nc": 38,
+          "lc": 19,
+          "title": "Remove Nth Node From End of List",
+          "pattern": "Linked List",
+          "difficulty": "Medium",
+          "explanation": "Two pointers: advance first by n, then move both until first hits end. Remove second.next.",
+          "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Palindrome Linked List",
+          "lc": 234,
+          "pattern": "Linked List",
+          "url": "https://leetcode.com/problems/palindrome-linked-list/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 23,
+      "type": "practice",
+      "patterns": [
+        "Linked List"
+      ],
+      "problems": [
+        {
+          "nc": 39,
+          "lc": 138,
+          "title": "Copy List with Random Pointer",
+          "pattern": "Linked List",
+          "difficulty": "Medium",
+          "explanation": "HashMap old\u2192new, or interleave clones then split. Wire next and random via map.",
+          "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+          "premium": false
+        },
+        {
+          "nc": 40,
+          "lc": 2,
+          "title": "Add Two Numbers",
+          "pattern": "Linked List",
+          "difficulty": "Medium",
+          "explanation": "Digit-by-digit with carry. Lists are reverse order; create new nodes until both done + carry.",
+          "url": "https://leetcode.com/problems/add-two-numbers/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Add Two Numbers II",
+          "lc": 445,
+          "pattern": "Linked List",
+          "url": "https://leetcode.com/problems/add-two-numbers-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 24,
+      "type": "practice",
+      "patterns": [
+        "Linked List"
+      ],
+      "problems": [
+        {
+          "nc": 41,
+          "lc": 141,
+          "title": "Linked List Cycle",
+          "pattern": "Linked List",
+          "difficulty": "Easy",
+          "explanation": "Floyd: slow/fast pointers. Meet \u21d2 cycle. Or HashSet of visited nodes.",
+          "url": "https://leetcode.com/problems/linked-list-cycle/",
+          "premium": false
+        },
+        {
+          "nc": 42,
+          "lc": 287,
+          "title": "Find the Duplicate Number",
+          "pattern": "Linked List",
+          "difficulty": "Medium",
+          "explanation": "Treat array as linked list (i\u2192nums[i]). Floyd cycle detection finds entrance = duplicate.",
+          "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Linked List Cycle II",
+          "lc": 142,
+          "pattern": "Linked List",
+          "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 25,
+      "type": "practice",
+      "patterns": [
+        "Linked List"
+      ],
+      "problems": [
+        {
+          "nc": 43,
+          "lc": 146,
+          "title": "LRU Cache",
+          "pattern": "Linked List",
+          "difficulty": "Medium",
+          "explanation": "HashMap + doubly linked list. Move accessed to front; evict tail when over capacity.",
+          "url": "https://leetcode.com/problems/lru-cache/",
+          "premium": false
+        },
+        {
+          "nc": 44,
+          "lc": 23,
+          "title": "Merge K Sorted Lists",
+          "pattern": "Linked List",
+          "difficulty": "Hard",
+          "explanation": "Min-heap of current heads, or pairwise merge (divide & conquer). Heap is clean O(N log k).",
+          "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "LFU Cache",
+          "lc": 460,
+          "pattern": "Linked List",
+          "url": "https://leetcode.com/problems/lfu-cache/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 26,
+      "type": "practice",
+      "patterns": [
+        "Linked List",
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 45,
+          "lc": 25,
+          "title": "Reverse Nodes in k-Group",
+          "pattern": "Linked List",
+          "difficulty": "Hard",
+          "explanation": "Count k nodes; reverse that segment; recurse/iterate for next groups. Leave remainder as-is.",
+          "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+          "premium": false
+        },
+        {
+          "nc": 46,
+          "lc": 226,
+          "title": "Invert Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "Swap left/right recursively (or BFS). Classic DFS mirror.",
+          "url": "https://leetcode.com/problems/invert-binary-tree/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Swap Nodes in Pairs",
+          "lc": 24,
+          "pattern": "Linked List",
+          "url": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 27,
+      "type": "practice",
+      "patterns": [
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 47,
+          "lc": 104,
+          "title": "Maximum Depth of Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "1 + max(depth(left), depth(right)). Or BFS level count.",
+          "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+          "premium": false
+        },
+        {
+          "nc": 48,
+          "lc": 543,
+          "title": "Diameter of Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "At each node, diameter through node = leftHeight+rightHeight. DFS returns height; track global max.",
+          "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Minimum Depth of Binary Tree",
+          "lc": 111,
+          "pattern": "Trees",
+          "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 28,
+      "type": "revision",
+      "patterns": [
+        "Linked List",
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 45,
+          "lc": 25,
+          "title": "Reverse Nodes in k-Group",
+          "pattern": "Linked List",
+          "difficulty": "Hard",
+          "explanation": "Count k nodes; reverse that segment; recurse/iterate for next groups. Leave remainder as-is.",
+          "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+        },
+        {
+          "nc": 46,
+          "lc": 226,
+          "title": "Invert Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "Swap left/right recursively (or BFS). Classic DFS mirror.",
+          "url": "https://leetcode.com/problems/invert-binary-tree/"
+        },
+        {
+          "nc": 47,
+          "lc": 104,
+          "title": "Maximum Depth of Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "1 + max(depth(left), depth(right)). Or BFS level count.",
+          "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+        },
+        {
+          "nc": 48,
+          "lc": 543,
+          "title": "Diameter of Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "At each node, diameter through node = leftHeight+rightHeight. DFS returns height; track global max.",
+          "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 29,
+      "type": "practice",
+      "patterns": [
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 49,
+          "lc": 110,
+          "title": "Balanced Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "Height DFS that returns -1 if unbalanced (|lh-rh|>1). Bottom-up check.",
+          "url": "https://leetcode.com/problems/balanced-binary-tree/",
+          "premium": false
+        },
+        {
+          "nc": 50,
+          "lc": 100,
+          "title": "Same Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "Recursive: both null, or vals equal and left/right same. Mirror of Subtree check.",
+          "url": "https://leetcode.com/problems/same-tree/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Convert Sorted Array to BST",
+          "lc": 108,
+          "pattern": "Trees",
+          "url": "https://leetcode.com/problems/convert-sorted-array-to-bst/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 30,
+      "type": "practice",
+      "patterns": [
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 51,
+          "lc": 572,
+          "title": "Subtree of Another Tree",
+          "pattern": "Trees",
+          "difficulty": "Easy",
+          "explanation": "For each node in root, check isSameTree(node, subRoot). Or serialize + string find.",
+          "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+          "premium": false
+        },
+        {
+          "nc": 52,
+          "lc": 235,
+          "title": "Lowest Common Ancestor of a BST",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "BST property: if both < root go left; both > go right; else root is LCA.",
+          "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-bst/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Find Duplicate Subtrees",
+          "lc": 652,
+          "pattern": "Trees",
+          "url": "https://leetcode.com/problems/find-duplicate-subtrees/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 31,
+      "type": "practice",
+      "patterns": [
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 53,
+          "lc": 102,
+          "title": "Binary Tree Level Order Traversal",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "BFS queue; process level size per iteration into a list.",
+          "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+          "premium": false
+        },
+        {
+          "nc": 54,
+          "lc": 199,
+          "title": "Binary Tree Right Side View",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "BFS: last node of each level; or DFS right-first tracking depth.",
+          "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Binary Tree Zigzag Level Order",
+          "lc": 103,
+          "pattern": "Trees",
+          "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 32,
+      "type": "practice",
+      "patterns": [
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 55,
+          "lc": 1448,
+          "title": "Count Good Nodes in Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "DFS with maxSoFar. Node is good if val >= maxSoFar; update max when descending.",
+          "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+          "premium": false
+        },
+        {
+          "nc": 56,
+          "lc": 98,
+          "title": "Validate Binary Search Tree",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "DFS with (low, high) bounds; or inorder must be strictly increasing.",
+          "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Path Sum",
+          "lc": 112,
+          "pattern": "Trees",
+          "url": "https://leetcode.com/problems/path-sum/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 33,
+      "type": "practice",
+      "patterns": [
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 57,
+          "lc": 230,
+          "title": "Kth Smallest Element in a BST",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "Inorder traversal; return k-th visited. Or iterative stack inorder.",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+          "premium": false
+        },
+        {
+          "nc": 58,
+          "lc": 105,
+          "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "Preorder[0]=root; find in inorder to split left/right subtrees. HashMap for indices.",
+          "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Binary Search Tree Iterator",
+          "lc": 173,
+          "pattern": "Trees",
+          "url": "https://leetcode.com/problems/binary-search-tree-iterator/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 34,
+      "type": "practice",
+      "patterns": [
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 59,
+          "lc": 124,
+          "title": "Binary Tree Maximum Path Sum",
+          "pattern": "Trees",
+          "difficulty": "Hard",
+          "explanation": "DFS returns max gain upward. At node, path = leftGain+rightGain+val; track global max.",
+          "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+          "premium": false
+        },
+        {
+          "nc": 60,
+          "lc": 297,
+          "title": "Serialize and Deserialize Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Hard",
+          "explanation": "BFS or preorder with null markers. Deserialize rebuilds with queue/index.",
+          "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Path Sum III",
+          "lc": 437,
+          "pattern": "Trees",
+          "url": "https://leetcode.com/problems/path-sum-iii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 35,
+      "type": "revision",
+      "patterns": [
+        "Trees"
+      ],
+      "problems": [
+        {
+          "nc": 57,
+          "lc": 230,
+          "title": "Kth Smallest Element in a BST",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "Inorder traversal; return k-th visited. Or iterative stack inorder.",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+        },
+        {
+          "nc": 58,
+          "lc": 105,
+          "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+          "pattern": "Trees",
+          "difficulty": "Medium",
+          "explanation": "Preorder[0]=root; find in inorder to split left/right subtrees. HashMap for indices.",
+          "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+        },
+        {
+          "nc": 59,
+          "lc": 124,
+          "title": "Binary Tree Maximum Path Sum",
+          "pattern": "Trees",
+          "difficulty": "Hard",
+          "explanation": "DFS returns max gain upward. At node, path = leftGain+rightGain+val; track global max.",
+          "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+        },
+        {
+          "nc": 60,
+          "lc": 297,
+          "title": "Serialize and Deserialize Binary Tree",
+          "pattern": "Trees",
+          "difficulty": "Hard",
+          "explanation": "BFS or preorder with null markers. Deserialize rebuilds with queue/index.",
+          "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 36,
+      "type": "practice",
+      "patterns": [
+        "Tries"
+      ],
+      "problems": [
+        {
+          "nc": 61,
+          "lc": 208,
+          "title": "Implement Trie (Prefix Tree)",
+          "pattern": "Tries",
+          "difficulty": "Medium",
+          "explanation": "Node with children[26] + isEnd. insert/search/startsWith walk the path.",
+          "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+          "premium": false
+        },
+        {
+          "nc": 62,
+          "lc": 211,
+          "title": "Design Add and Search Words Data Structure",
+          "pattern": "Tries",
+          "difficulty": "Medium",
+          "explanation": "Trie + DFS for '.' wildcard matching any child.",
+          "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Replace Words",
+          "lc": 648,
+          "pattern": "Tries",
+          "url": "https://leetcode.com/problems/replace-words/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 37,
+      "type": "practice",
+      "patterns": [
+        "Heap / Priority Queue",
+        "Tries"
+      ],
+      "problems": [
+        {
+          "nc": 63,
+          "lc": 212,
+          "title": "Word Search II",
+          "pattern": "Tries",
+          "difficulty": "Hard",
+          "explanation": "Build Trie of words; DFS board from each cell pruning via Trie. Mark visited; collect words.",
+          "url": "https://leetcode.com/problems/word-search-ii/",
+          "premium": false
+        },
+        {
+          "nc": 64,
+          "lc": 703,
+          "title": "Kth Largest Element in a Stream",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Easy",
+          "explanation": "Min-heap of size k. Root is always kth largest.",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Palindrome Pairs",
+          "lc": 336,
+          "pattern": "Tries",
+          "url": "https://leetcode.com/problems/palindrome-pairs/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 38,
+      "type": "practice",
+      "patterns": [
+        "Heap / Priority Queue"
+      ],
+      "problems": [
+        {
+          "nc": 65,
+          "lc": 1046,
+          "title": "Last Stone Weight",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Easy",
+          "explanation": "Max-heap: smash two heaviest; push difference if nonzero. Last remaining (or 0).",
+          "url": "https://leetcode.com/problems/last-stone-weight/",
+          "premium": false
+        },
+        {
+          "nc": 66,
+          "lc": 973,
+          "title": "K Closest Points to Origin",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Medium",
+          "explanation": "Max-heap of size k by distance, or sort by dist\u00b2. Avoid sqrt.",
+          "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Last Stone Weight II",
+          "lc": 1049,
+          "pattern": "Heap / Priority Queue",
+          "url": "https://leetcode.com/problems/last-stone-weight-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 39,
+      "type": "practice",
+      "patterns": [
+        "Heap / Priority Queue"
+      ],
+      "problems": [
+        {
+          "nc": 67,
+          "lc": 215,
+          "title": "Kth Largest Element in an Array",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Medium",
+          "explanation": "Quickselect O(n) avg, or min-heap of size k. Prefer quickselect for interviews if asked.",
+          "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+          "premium": false
+        },
+        {
+          "nc": 68,
+          "lc": 621,
+          "title": "Task Scheduler",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Medium",
+          "explanation": "Max freq dominates: (maxFreq-1)*(n+1) + countOfMax. Or simulate with max-heap + cooldown queue.",
+          "url": "https://leetcode.com/problems/task-scheduler/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Kth Smallest Element in a Sorted Matrix",
+          "lc": 378,
+          "pattern": "Heap / Priority Queue",
+          "url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 40,
+      "type": "practice",
+      "patterns": [
+        "Heap / Priority Queue"
+      ],
+      "problems": [
+        {
+          "nc": 69,
+          "lc": 355,
+          "title": "Design Twitter",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Medium",
+          "explanation": "Follow graph + per-user tweet lists. News feed: merge k recent via max-heap by time.",
+          "url": "https://leetcode.com/problems/design-twitter/",
+          "premium": false
+        },
+        {
+          "nc": 70,
+          "lc": 295,
+          "title": "Find Median from Data Stream",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Hard",
+          "explanation": "Max-heap (lo) + min-heap (hi). Balance sizes; median from tops.",
+          "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Design Hit Counter",
+          "lc": 362,
+          "pattern": "Heap / Priority Queue",
+          "url": "https://leetcode.com/problems/design-hit-counter/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 41,
+      "type": "practice",
+      "patterns": [
+        "Backtracking"
+      ],
+      "problems": [
+        {
+          "nc": 71,
+          "lc": 78,
+          "title": "Subsets",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "For each index: include or skip. Or iterative build doubling subsets.",
+          "url": "https://leetcode.com/problems/subsets/",
+          "premium": false
+        },
+        {
+          "nc": 72,
+          "lc": 39,
+          "title": "Combination Sum",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "Reuse same candidate (start index stays). Prune when remain < 0.",
+          "url": "https://leetcode.com/problems/combination-sum/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Combinations",
+          "lc": 77,
+          "pattern": "Backtracking",
+          "url": "https://leetcode.com/problems/combinations/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 42,
+      "type": "revision",
+      "patterns": [
+        "Backtracking",
+        "Heap / Priority Queue"
+      ],
+      "problems": [
+        {
+          "nc": 69,
+          "lc": 355,
+          "title": "Design Twitter",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Medium",
+          "explanation": "Follow graph + per-user tweet lists. News feed: merge k recent via max-heap by time.",
+          "url": "https://leetcode.com/problems/design-twitter/"
+        },
+        {
+          "nc": 70,
+          "lc": 295,
+          "title": "Find Median from Data Stream",
+          "pattern": "Heap / Priority Queue",
+          "difficulty": "Hard",
+          "explanation": "Max-heap (lo) + min-heap (hi). Balance sizes; median from tops.",
+          "url": "https://leetcode.com/problems/find-median-from-data-stream/"
+        },
+        {
+          "nc": 71,
+          "lc": 78,
+          "title": "Subsets",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "For each index: include or skip. Or iterative build doubling subsets.",
+          "url": "https://leetcode.com/problems/subsets/"
+        },
+        {
+          "nc": 72,
+          "lc": 39,
+          "title": "Combination Sum",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "Reuse same candidate (start index stays). Prune when remain < 0.",
+          "url": "https://leetcode.com/problems/combination-sum/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 43,
+      "type": "practice",
+      "patterns": [
+        "Backtracking"
+      ],
+      "problems": [
+        {
+          "nc": 73,
+          "lc": 46,
+          "title": "Permutations",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "Swap-based or used[] boolean. Build path of length n.",
+          "url": "https://leetcode.com/problems/permutations/",
+          "premium": false
+        },
+        {
+          "nc": 74,
+          "lc": 90,
+          "title": "Subsets II",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "Sort first; skip duplicate at same depth (i>start && nums[i]==nums[i-1]).",
+          "url": "https://leetcode.com/problems/subsets-ii/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Permutations II",
+          "lc": 47,
+          "pattern": "Backtracking",
+          "url": "https://leetcode.com/problems/permutations-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 44,
+      "type": "practice",
+      "patterns": [
+        "Backtracking"
+      ],
+      "problems": [
+        {
+          "nc": 75,
+          "lc": 40,
+          "title": "Combination Sum II",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "Each number once; sort + skip duplicates at same level. Increment start after pick.",
+          "url": "https://leetcode.com/problems/combination-sum-ii/",
+          "premium": false
+        },
+        {
+          "nc": 76,
+          "lc": 79,
+          "title": "Word Search",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "DFS from each cell matching word[i]; mark visited; backtrack. Prune early.",
+          "url": "https://leetcode.com/problems/word-search/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Path with Maximum Gold",
+          "lc": 1219,
+          "pattern": "Backtracking",
+          "url": "https://leetcode.com/problems/path-with-maximum-gold/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 45,
+      "type": "practice",
+      "patterns": [
+        "Backtracking"
+      ],
+      "problems": [
+        {
+          "nc": 77,
+          "lc": 131,
+          "title": "Palindrome Partitioning",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "Partition prefix if palindrome; recurse on remainder. DP can precompute palindrome table.",
+          "url": "https://leetcode.com/problems/palindrome-partitioning/",
+          "premium": false
+        },
+        {
+          "nc": 78,
+          "lc": 17,
+          "title": "Letter Combinations of a Phone Number",
+          "pattern": "Backtracking",
+          "difficulty": "Medium",
+          "explanation": "Map digit\u2192letters; DFS append one letter per digit position.",
+          "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Palindrome Partitioning II",
+          "lc": 132,
+          "pattern": "Backtracking",
+          "url": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 46,
+      "type": "practice",
+      "patterns": [
+        "Backtracking",
+        "Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 79,
+          "lc": 51,
+          "title": "N-Queens",
+          "pattern": "Backtracking",
+          "difficulty": "Hard",
+          "explanation": "Place one queen per column; track rows/diags. Backtrack when conflict.",
+          "url": "https://leetcode.com/problems/n-queens/",
+          "premium": false
+        },
+        {
+          "nc": 80,
+          "lc": 200,
+          "title": "Number of Islands",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "DFS/BFS flood-fill each '1'; mark visited. Count starts.",
+          "url": "https://leetcode.com/problems/number-of-islands/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "N-Queens II",
+          "lc": 52,
+          "pattern": "Backtracking",
+          "url": "https://leetcode.com/problems/n-queens-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 47,
+      "type": "practice",
+      "patterns": [
+        "Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 81,
+          "lc": 133,
+          "title": "Clone Graph",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "HashMap old\u2192new. DFS/BFS clone nodes then wire neighbors.",
+          "url": "https://leetcode.com/problems/clone-graph/",
+          "premium": false
+        },
+        {
+          "nc": 82,
+          "lc": 695,
+          "title": "Max Area of Island",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Same as islands but return size of DFS flood-fill; track max.",
+          "url": "https://leetcode.com/problems/max-area-of-island/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Clone Binary Tree With Random Pointer",
+          "lc": 1485,
+          "pattern": "Graphs",
+          "url": "https://leetcode.com/problems/clone-binary-tree-with-random-pointer/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 48,
+      "type": "practice",
+      "patterns": [
+        "Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 83,
+          "lc": 417,
+          "title": "Pacific Atlantic Water Flow",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Multi-source DFS/BFS from Pacific and Atlantic borders uphill. Intersection = answer.",
+          "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+          "premium": false
+        },
+        {
+          "nc": 84,
+          "lc": 130,
+          "title": "Surrounded Regions",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Mark 'O's connected to border as safe. Flip remaining 'O'\u2192'X'.",
+          "url": "https://leetcode.com/problems/surrounded-regions/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "01 Matrix",
+          "lc": 542,
+          "pattern": "Graphs",
+          "url": "https://leetcode.com/problems/01-matrix/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 49,
+      "type": "revision",
+      "patterns": [
+        "Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 81,
+          "lc": 133,
+          "title": "Clone Graph",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "HashMap old\u2192new. DFS/BFS clone nodes then wire neighbors.",
+          "url": "https://leetcode.com/problems/clone-graph/"
+        },
+        {
+          "nc": 82,
+          "lc": 695,
+          "title": "Max Area of Island",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Same as islands but return size of DFS flood-fill; track max.",
+          "url": "https://leetcode.com/problems/max-area-of-island/"
+        },
+        {
+          "nc": 83,
+          "lc": 417,
+          "title": "Pacific Atlantic Water Flow",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Multi-source DFS/BFS from Pacific and Atlantic borders uphill. Intersection = answer.",
+          "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+        },
+        {
+          "nc": 84,
+          "lc": 130,
+          "title": "Surrounded Regions",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Mark 'O's connected to border as safe. Flip remaining 'O'\u2192'X'.",
+          "url": "https://leetcode.com/problems/surrounded-regions/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 50,
+      "type": "practice",
+      "patterns": [
+        "Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 85,
+          "lc": 994,
+          "title": "Rotting Oranges",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Multi-source BFS from all rotten. Minutes = levels until fresh==0.",
+          "url": "https://leetcode.com/problems/rotting-oranges/",
+          "premium": false
+        },
+        {
+          "nc": 86,
+          "lc": 286,
+          "title": "Walls and Gates",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Premium. Multi-source BFS from all gates; fill empty rooms with distance.",
+          "url": "https://leetcode.com/problems/walls-and-gates/",
+          "premium": true
+        }
+      ],
+      "similar": [
+        {
+          "title": "Shortest Path in Binary Matrix",
+          "lc": 1091,
+          "pattern": "Graphs",
+          "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 51,
+      "type": "practice",
+      "patterns": [
+        "Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 87,
+          "lc": 207,
+          "title": "Course Schedule",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Detect cycle in directed graph (DFS colors or Kahn indegree). Cycle \u21d2 impossible.",
+          "url": "https://leetcode.com/problems/course-schedule/",
+          "premium": false
+        },
+        {
+          "nc": 88,
+          "lc": 210,
+          "title": "Course Schedule II",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Topological sort (Kahn/BFS or DFS postorder reverse). Empty if cycle.",
+          "url": "https://leetcode.com/problems/course-schedule-ii/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Course Schedule II",
+          "lc": 210,
+          "pattern": "Graphs",
+          "url": "https://leetcode.com/problems/course-schedule-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 52,
+      "type": "practice",
+      "patterns": [
+        "Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 89,
+          "lc": 684,
+          "title": "Redundant Connection",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Union-Find: edge that connects already-same component is redundant.",
+          "url": "https://leetcode.com/problems/redundant-connection/",
+          "premium": false
+        },
+        {
+          "nc": 90,
+          "lc": 323,
+          "title": "Number of Connected Components in Undirected Graph",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Premium. Union-Find or DFS count components.",
+          "url": "https://leetcode.com/problems/number-of-connected-components-in-undirected-graph/",
+          "premium": true
+        }
+      ],
+      "similar": [
+        {
+          "title": "Redundant Connection II",
+          "lc": 685,
+          "pattern": "Graphs",
+          "url": "https://leetcode.com/problems/redundant-connection-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 53,
+      "type": "practice",
+      "patterns": [
+        "Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 91,
+          "lc": 261,
+          "title": "Graph Valid Tree",
+          "pattern": "Graphs",
+          "difficulty": "Medium",
+          "explanation": "Premium. Tree iff connected and edges==n-1 (or Union-Find with no cycle + one component).",
+          "url": "https://leetcode.com/problems/graph-valid-tree/",
+          "premium": true
+        },
+        {
+          "nc": 92,
+          "lc": 127,
+          "title": "Word Ladder",
+          "pattern": "Graphs",
+          "difficulty": "Hard",
+          "explanation": "BFS: words as nodes; edges = 1-letter diff. Bidirectional BFS speeds it up.",
+          "url": "https://leetcode.com/problems/word-ladder/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Word Ladder II",
+          "lc": 126,
+          "pattern": "Graphs",
+          "url": "https://leetcode.com/problems/word-ladder-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 54,
+      "type": "practice",
+      "patterns": [
+        "Advanced Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 93,
+          "lc": 332,
+          "title": "Reconstruct Itinerary",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Hard",
+          "explanation": "Hierholzer: Hierholzer Euler path on multigraph. Prefer lexical smaller edges (PriorityQueue).",
+          "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+          "premium": false
+        },
+        {
+          "nc": 94,
+          "lc": 1584,
+          "title": "Min Cost to Connect All Points",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Medium",
+          "explanation": "MST: Prim with min-heap on Manhattan distances, or Kruskal + Union-Find.",
+          "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Cracking the Safe",
+          "lc": 753,
+          "pattern": "Advanced Graphs",
+          "url": "https://leetcode.com/problems/cracking-the-safe/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 55,
+      "type": "practice",
+      "patterns": [
+        "Advanced Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 95,
+          "lc": 743,
+          "title": "Network Delay Time",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Medium",
+          "explanation": "Dijkstra from k. Answer = max dist if all reachable else -1.",
+          "url": "https://leetcode.com/problems/network-delay-time/",
+          "premium": false
+        },
+        {
+          "nc": 96,
+          "lc": 778,
+          "title": "Swim in Rising Water",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Hard",
+          "explanation": "Dijkstra/min-heap on max-elevation along path. Or binary search + BFS on threshold.",
+          "url": "https://leetcode.com/problems/swim-in-rising-water/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Path With Minimum Effort",
+          "lc": 1631,
+          "pattern": "Advanced Graphs",
+          "url": "https://leetcode.com/problems/path-with-minimum-effort/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 56,
+      "type": "revision",
+      "patterns": [
+        "Advanced Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 93,
+          "lc": 332,
+          "title": "Reconstruct Itinerary",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Hard",
+          "explanation": "Hierholzer: Hierholzer Euler path on multigraph. Prefer lexical smaller edges (PriorityQueue).",
+          "url": "https://leetcode.com/problems/reconstruct-itinerary/"
+        },
+        {
+          "nc": 94,
+          "lc": 1584,
+          "title": "Min Cost to Connect All Points",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Medium",
+          "explanation": "MST: Prim with min-heap on Manhattan distances, or Kruskal + Union-Find.",
+          "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/"
+        },
+        {
+          "nc": 95,
+          "lc": 743,
+          "title": "Network Delay Time",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Medium",
+          "explanation": "Dijkstra from k. Answer = max dist if all reachable else -1.",
+          "url": "https://leetcode.com/problems/network-delay-time/"
+        },
+        {
+          "nc": 96,
+          "lc": 778,
+          "title": "Swim in Rising Water",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Hard",
+          "explanation": "Dijkstra/min-heap on max-elevation along path. Or binary search + BFS on threshold.",
+          "url": "https://leetcode.com/problems/swim-in-rising-water/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 57,
+      "type": "practice",
+      "patterns": [
+        "Advanced Graphs"
+      ],
+      "problems": [
+        {
+          "nc": 97,
+          "lc": 269,
+          "title": "Alien Dictionary",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Hard",
+          "explanation": "Premium. Build precedence edges from adjacent words; topo sort. Invalid if cycle / prefix conflict.",
+          "url": "https://leetcode.com/problems/alien-dictionary/",
+          "premium": true
+        },
+        {
+          "nc": 98,
+          "lc": 787,
+          "title": "Cheapest Flights Within K Stops",
+          "pattern": "Advanced Graphs",
+          "difficulty": "Medium",
+          "explanation": "Bellman-Ford K+1 iterations, or Dijkstra with (node,stops) state.",
+          "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Sequence Reconstruction",
+          "lc": 444,
+          "pattern": "Advanced Graphs",
+          "url": "https://leetcode.com/problems/sequence-reconstruction/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 58,
+      "type": "practice",
+      "patterns": [
+        "1-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 99,
+          "lc": 70,
+          "title": "Climbing Stairs",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Easy",
+          "explanation": "Fibonacci: dp[i]=dp[i-1]+dp[i-2]. Ways to reach top.",
+          "url": "https://leetcode.com/problems/climbing-stairs/",
+          "premium": false
+        },
+        {
+          "nc": 100,
+          "lc": 746,
+          "title": "Min Cost Climbing Stairs",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Easy",
+          "explanation": "dp[i]=cost[i]+min(dp[i-1],dp[i-2]). Start from 0 or 1; answer min of last two.",
+          "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Fibonacci Number",
+          "lc": 509,
+          "pattern": "1-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/fibonacci-number/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 59,
+      "type": "practice",
+      "patterns": [
+        "1-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 101,
+          "lc": 198,
+          "title": "House Robber",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "dp[i]=max(dp[i-1], dp[i-2]+nums[i]). No adjacent houses.",
+          "url": "https://leetcode.com/problems/house-robber/",
+          "premium": false
+        },
+        {
+          "nc": 102,
+          "lc": 213,
+          "title": "House Robber II",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Circular: max(rob range [0..n-2], rob [1..n-1]).",
+          "url": "https://leetcode.com/problems/house-robber-ii/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "House Robber III",
+          "lc": 337,
+          "pattern": "1-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/house-robber-iii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 60,
+      "type": "practice",
+      "patterns": [
+        "1-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 103,
+          "lc": 5,
+          "title": "Longest Palindromic Substring",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Expand around centers (odd/even), or DP table dp[i][j]. Track best start/len.",
+          "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+          "premium": false
+        },
+        {
+          "nc": 104,
+          "lc": 647,
+          "title": "Palindromic Substrings",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Expand around each center; count each palindrome found.",
+          "url": "https://leetcode.com/problems/palindromic-substrings/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Longest Palindromic Subsequence",
+          "lc": 516,
+          "pattern": "1-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 61,
+      "type": "practice",
+      "patterns": [
+        "1-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 105,
+          "lc": 91,
+          "title": "Decode Ways",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "dp[i]= ways ending at i. Take 1 digit if nonzero; take 2 if 10\u201326.",
+          "url": "https://leetcode.com/problems/decode-ways/",
+          "premium": false
+        },
+        {
+          "nc": 106,
+          "lc": 322,
+          "title": "Coin Change",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Unbounded knapsack: dp[a]=min coins for amount a. dp[x]=min(dp[x-coin])+1.",
+          "url": "https://leetcode.com/problems/coin-change/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Decode Ways II",
+          "lc": 639,
+          "pattern": "1-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/decode-ways-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 62,
+      "type": "practice",
+      "patterns": [
+        "1-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 107,
+          "lc": 152,
+          "title": "Maximum Product Subarray",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Track max/min product ending here (sign flips). Reset on zero.",
+          "url": "https://leetcode.com/problems/maximum-product-subarray/",
+          "premium": false
+        },
+        {
+          "nc": 108,
+          "lc": 139,
+          "title": "Word Break",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "dp[i]=true if s[0..i) can be segmented. Try dict words ending at i.",
+          "url": "https://leetcode.com/problems/word-break/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Maximum Sum Circular Subarray",
+          "lc": 918,
+          "pattern": "1-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/maximum-sum-circular-subarray/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 63,
+      "type": "revision",
+      "patterns": [
+        "1-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 105,
+          "lc": 91,
+          "title": "Decode Ways",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "dp[i]= ways ending at i. Take 1 digit if nonzero; take 2 if 10\u201326.",
+          "url": "https://leetcode.com/problems/decode-ways/"
+        },
+        {
+          "nc": 106,
+          "lc": 322,
+          "title": "Coin Change",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Unbounded knapsack: dp[a]=min coins for amount a. dp[x]=min(dp[x-coin])+1.",
+          "url": "https://leetcode.com/problems/coin-change/"
+        },
+        {
+          "nc": 107,
+          "lc": 152,
+          "title": "Maximum Product Subarray",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Track max/min product ending here (sign flips). Reset on zero.",
+          "url": "https://leetcode.com/problems/maximum-product-subarray/"
+        },
+        {
+          "nc": 108,
+          "lc": 139,
+          "title": "Word Break",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "dp[i]=true if s[0..i) can be segmented. Try dict words ending at i.",
+          "url": "https://leetcode.com/problems/word-break/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 64,
+      "type": "practice",
+      "patterns": [
+        "1-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 109,
+          "lc": 300,
+          "title": "Longest Increasing Subsequence",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "O(n\u00b2) DP or O(n log n) patience sorting with tails array + binary search.",
+          "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+          "premium": false
+        },
+        {
+          "nc": 110,
+          "lc": 416,
+          "title": "Partition Equal Subset Sum",
+          "pattern": "1-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "0/1 knapsack: can we reach sum/2? Boolean DP on achievable sums.",
+          "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Number of Longest Increasing Subsequence",
+          "lc": 673,
+          "pattern": "1-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 65,
+      "type": "practice",
+      "patterns": [
+        "2-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 111,
+          "lc": 62,
+          "title": "Unique Paths",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "dp[i][j]=dp[i-1][j]+dp[i][j-1]. Or combinations C(m+n-2, m-1).",
+          "url": "https://leetcode.com/problems/unique-paths/",
+          "premium": false
+        },
+        {
+          "nc": 112,
+          "lc": 1143,
+          "title": "Longest Common Subsequence",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Classic LCS: if equal 1+diag else max(left, up).",
+          "url": "https://leetcode.com/problems/longest-common-subsequence/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Unique Paths II",
+          "lc": 63,
+          "pattern": "2-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/unique-paths-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 66,
+      "type": "practice",
+      "patterns": [
+        "2-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 113,
+          "lc": 309,
+          "title": "Best Time to Buy and Sell Stock with Cooldown",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "States: hold / sold / rest. Transition with cooldown after sell.",
+          "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+          "premium": false
+        },
+        {
+          "nc": 114,
+          "lc": 518,
+          "title": "Coin Change II",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Number of combinations: outer coins, inner amounts (order-independent).",
+          "url": "https://leetcode.com/problems/coin-change-ii/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Best Time with Transaction Fee",
+          "lc": 714,
+          "pattern": "2-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/best-time-with-transaction-fee/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 67,
+      "type": "practice",
+      "patterns": [
+        "2-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 115,
+          "lc": 494,
+          "title": "Target Sum",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Assign \u00b1; equivalent to subset sum of (total+target)/2.",
+          "url": "https://leetcode.com/problems/target-sum/",
+          "premium": false
+        },
+        {
+          "nc": 116,
+          "lc": 97,
+          "title": "Interleaving String",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "dp[i][j]: s1[:i] and s2[:j] form s3[:i+j]. Match last char from s1 or s2.",
+          "url": "https://leetcode.com/problems/interleaving-string/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Ones and Zeroes",
+          "lc": 474,
+          "pattern": "2-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/ones-and-zeroes/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 68,
+      "type": "practice",
+      "patterns": [
+        "2-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 117,
+          "lc": 329,
+          "title": "Longest Increasing Path in a Matrix",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Hard",
+          "explanation": "DFS + memo: lip[i][j]=1+max over increasing neighbors.",
+          "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+          "premium": false
+        },
+        {
+          "nc": 118,
+          "lc": 115,
+          "title": "Distinct Subsequences",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Hard",
+          "explanation": "dp[i][j]= ways s[:i] forms t[:j]. If match add diag; always add skip.",
+          "url": "https://leetcode.com/problems/distinct-subsequences/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Path With Maximum Gold",
+          "lc": 1219,
+          "pattern": "2-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/path-with-maximum-gold/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 69,
+      "type": "practice",
+      "patterns": [
+        "2-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 119,
+          "lc": 72,
+          "title": "Edit Distance",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Levenshtein: insert/delete/replace. dp[i][j] from three neighbors.",
+          "url": "https://leetcode.com/problems/edit-distance/",
+          "premium": false
+        },
+        {
+          "nc": 120,
+          "lc": 312,
+          "title": "Burst Balloons",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Hard",
+          "explanation": "Interval DP: last balloon burst in (L,R) yields coins L*i*R + sides.",
+          "url": "https://leetcode.com/problems/burst-balloons/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "One Edit Distance",
+          "lc": 161,
+          "pattern": "2-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/one-edit-distance/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 70,
+      "type": "revision",
+      "patterns": [
+        "2-D Dynamic Programming"
+      ],
+      "problems": [
+        {
+          "nc": 117,
+          "lc": 329,
+          "title": "Longest Increasing Path in a Matrix",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Hard",
+          "explanation": "DFS + memo: lip[i][j]=1+max over increasing neighbors.",
+          "url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/"
+        },
+        {
+          "nc": 118,
+          "lc": 115,
+          "title": "Distinct Subsequences",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Hard",
+          "explanation": "dp[i][j]= ways s[:i] forms t[:j]. If match add diag; always add skip.",
+          "url": "https://leetcode.com/problems/distinct-subsequences/"
+        },
+        {
+          "nc": 119,
+          "lc": 72,
+          "title": "Edit Distance",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Medium",
+          "explanation": "Levenshtein: insert/delete/replace. dp[i][j] from three neighbors.",
+          "url": "https://leetcode.com/problems/edit-distance/"
+        },
+        {
+          "nc": 120,
+          "lc": 312,
+          "title": "Burst Balloons",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Hard",
+          "explanation": "Interval DP: last balloon burst in (L,R) yields coins L*i*R + sides.",
+          "url": "https://leetcode.com/problems/burst-balloons/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 71,
+      "type": "practice",
+      "patterns": [
+        "2-D Dynamic Programming",
+        "Greedy"
+      ],
+      "problems": [
+        {
+          "nc": 121,
+          "lc": 10,
+          "title": "Regular Expression Matching",
+          "pattern": "2-D Dynamic Programming",
+          "difficulty": "Hard",
+          "explanation": "DP on s/p with '*' zero-or-more of prev. Handle '.' and '*'.",
+          "url": "https://leetcode.com/problems/regular-expression-matching/",
+          "premium": false
+        },
+        {
+          "nc": 122,
+          "lc": 53,
+          "title": "Maximum Subarray",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "Kadane: cur=max(x, cur+x); track global max. Greedy local decision.",
+          "url": "https://leetcode.com/problems/maximum-subarray/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Wildcard Matching",
+          "lc": 44,
+          "pattern": "2-D Dynamic Programming",
+          "url": "https://leetcode.com/problems/wildcard-matching/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 72,
+      "type": "practice",
+      "patterns": [
+        "Greedy"
+      ],
+      "problems": [
+        {
+          "nc": 123,
+          "lc": 55,
+          "title": "Jump Game",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "Track farthest reachable. Fail if i > farthest. Success if farthest >= last.",
+          "url": "https://leetcode.com/problems/jump-game/",
+          "premium": false
+        },
+        {
+          "nc": 124,
+          "lc": 45,
+          "title": "Jump Game II",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "BFS-like levels: within current end, track nextEnd; jump++ when i==end.",
+          "url": "https://leetcode.com/problems/jump-game-ii/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Jump Game III",
+          "lc": 1306,
+          "pattern": "Greedy",
+          "url": "https://leetcode.com/problems/jump-game-iii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 73,
+      "type": "practice",
+      "patterns": [
+        "Greedy"
+      ],
+      "problems": [
+        {
+          "nc": 125,
+          "lc": 134,
+          "title": "Gas Station",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "If total gas>=cost, unique start exists. Reset start when tank goes negative.",
+          "url": "https://leetcode.com/problems/gas-station/",
+          "premium": false
+        },
+        {
+          "nc": 126,
+          "lc": 846,
+          "title": "Hand of Straights",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "TreeMap counts; repeatedly take groupSize consecutive starting at min key.",
+          "url": "https://leetcode.com/problems/hand-of-straights/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Divide Array in Sets of K Consecutive",
+          "lc": 1296,
+          "pattern": "Greedy",
+          "url": "https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 74,
+      "type": "practice",
+      "patterns": [
+        "Greedy"
+      ],
+      "problems": [
+        {
+          "nc": 127,
+          "lc": 1899,
+          "title": "Merge Triplets to Form Target Triplet",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "Keep triplets that don't exceed target in any dim; check if each target dim is achieved.",
+          "url": "https://leetcode.com/problems/merge-triplets-to-form-target-triplet/",
+          "premium": false
+        },
+        {
+          "nc": 128,
+          "lc": 763,
+          "title": "Partition Labels",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "Last index of each char. Extend partition end; cut when i==end.",
+          "url": "https://leetcode.com/problems/partition-labels/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Largest Combination With Bitwise AND",
+          "lc": 2275,
+          "pattern": "Greedy",
+          "url": "https://leetcode.com/problems/largest-combination-with-bitwise-and/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 75,
+      "type": "practice",
+      "patterns": [
+        "Greedy",
+        "Intervals"
+      ],
+      "problems": [
+        {
+          "nc": 129,
+          "lc": 678,
+          "title": "Valid Parenthesis String",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "Track low/high open counts; '*' as )/( /empty. low never <0; end low==0.",
+          "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+          "premium": false
+        },
+        {
+          "nc": 130,
+          "lc": 57,
+          "title": "Insert Interval",
+          "pattern": "Intervals",
+          "difficulty": "Medium",
+          "explanation": "Add all before; merge overlaps with newInterval; append rest.",
+          "url": "https://leetcode.com/problems/insert-interval/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Minimum Remove to Make Valid Parentheses",
+          "lc": 1249,
+          "pattern": "Greedy",
+          "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 76,
+      "type": "practice",
+      "patterns": [
+        "Intervals"
+      ],
+      "problems": [
+        {
+          "nc": 131,
+          "lc": 56,
+          "title": "Merge Intervals",
+          "pattern": "Intervals",
+          "difficulty": "Medium",
+          "explanation": "Sort by start; merge if next.start <= cur.end.",
+          "url": "https://leetcode.com/problems/merge-intervals/",
+          "premium": false
+        },
+        {
+          "nc": 132,
+          "lc": 435,
+          "title": "Non-overlapping Intervals",
+          "pattern": "Intervals",
+          "difficulty": "Medium",
+          "explanation": "Sort by end; greedily keep non-overlapping; count removals.",
+          "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Minimum Number of Arrows to Burst Balloons",
+          "lc": 452,
+          "pattern": "Intervals",
+          "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 77,
+      "type": "revision",
+      "patterns": [
+        "Greedy",
+        "Intervals"
+      ],
+      "problems": [
+        {
+          "nc": 129,
+          "lc": 678,
+          "title": "Valid Parenthesis String",
+          "pattern": "Greedy",
+          "difficulty": "Medium",
+          "explanation": "Track low/high open counts; '*' as )/( /empty. low never <0; end low==0.",
+          "url": "https://leetcode.com/problems/valid-parenthesis-string/"
+        },
+        {
+          "nc": 130,
+          "lc": 57,
+          "title": "Insert Interval",
+          "pattern": "Intervals",
+          "difficulty": "Medium",
+          "explanation": "Add all before; merge overlaps with newInterval; append rest.",
+          "url": "https://leetcode.com/problems/insert-interval/"
+        },
+        {
+          "nc": 131,
+          "lc": 56,
+          "title": "Merge Intervals",
+          "pattern": "Intervals",
+          "difficulty": "Medium",
+          "explanation": "Sort by start; merge if next.start <= cur.end.",
+          "url": "https://leetcode.com/problems/merge-intervals/"
+        },
+        {
+          "nc": 132,
+          "lc": 435,
+          "title": "Non-overlapping Intervals",
+          "pattern": "Intervals",
+          "difficulty": "Medium",
+          "explanation": "Sort by end; greedily keep non-overlapping; count removals.",
+          "url": "https://leetcode.com/problems/non-overlapping-intervals/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 78,
+      "type": "practice",
+      "patterns": [
+        "Intervals"
+      ],
+      "problems": [
+        {
+          "nc": 133,
+          "lc": 252,
+          "title": "Meeting Rooms",
+          "pattern": "Intervals",
+          "difficulty": "Easy",
+          "explanation": "Premium. Sort by start; check no overlap with previous end.",
+          "url": "https://leetcode.com/problems/meeting-rooms/",
+          "premium": true
+        },
+        {
+          "nc": 134,
+          "lc": 253,
+          "title": "Meeting Rooms II",
+          "pattern": "Intervals",
+          "difficulty": "Medium",
+          "explanation": "Premium. Min-heap of end times, or sweep line +/\u22121 at start/end.",
+          "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+          "premium": true
+        }
+      ],
+      "similar": [
+        {
+          "title": "Car Pooling",
+          "lc": 1094,
+          "pattern": "Intervals",
+          "url": "https://leetcode.com/problems/car-pooling/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 79,
+      "type": "practice",
+      "patterns": [
+        "Intervals",
+        "Math & Geometry"
+      ],
+      "problems": [
+        {
+          "nc": 135,
+          "lc": 1851,
+          "title": "Minimum Interval to Include Each Query",
+          "pattern": "Intervals",
+          "difficulty": "Hard",
+          "explanation": "Sort intervals & queries; min-heap of sizes for intervals covering query.",
+          "url": "https://leetcode.com/problems/minimum-interval-to-include-each-query/",
+          "premium": false
+        },
+        {
+          "nc": 136,
+          "lc": 48,
+          "title": "Rotate Image",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Transpose then reverse each row (or cycle 4-way swaps).",
+          "url": "https://leetcode.com/problems/rotate-image/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "The Skyline Problem",
+          "lc": 218,
+          "pattern": "Intervals",
+          "url": "https://leetcode.com/problems/the-skyline-problem/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 80,
+      "type": "practice",
+      "patterns": [
+        "Math & Geometry"
+      ],
+      "problems": [
+        {
+          "nc": 137,
+          "lc": 54,
+          "title": "Spiral Matrix",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Shrink bounds top/bottom/left/right while walking spiral.",
+          "url": "https://leetcode.com/problems/spiral-matrix/",
+          "premium": false
+        },
+        {
+          "nc": 138,
+          "lc": 73,
+          "title": "Set Matrix Zeroes",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Use first row/col as markers (O(1) space). Then zero from markers.",
+          "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Spiral Matrix II",
+          "lc": 59,
+          "pattern": "Math & Geometry",
+          "url": "https://leetcode.com/problems/spiral-matrix-ii/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 81,
+      "type": "practice",
+      "patterns": [
+        "Math & Geometry"
+      ],
+      "problems": [
+        {
+          "nc": 139,
+          "lc": 202,
+          "title": "Happy Number",
+          "pattern": "Math & Geometry",
+          "difficulty": "Easy",
+          "explanation": "Sum of squared digits; detect cycle with HashSet or Floyd.",
+          "url": "https://leetcode.com/problems/happy-number/",
+          "premium": false
+        },
+        {
+          "nc": 140,
+          "lc": 66,
+          "title": "Plus One",
+          "pattern": "Math & Geometry",
+          "difficulty": "Easy",
+          "explanation": "Add from end; propagate carry. If carry remains, grow array.",
+          "url": "https://leetcode.com/problems/plus-one/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Ugly Number",
+          "lc": 263,
+          "pattern": "Math & Geometry",
+          "url": "https://leetcode.com/problems/ugly-number/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 82,
+      "type": "practice",
+      "patterns": [
+        "Math & Geometry"
+      ],
+      "problems": [
+        {
+          "nc": 141,
+          "lc": 50,
+          "title": "Pow(x, n)",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Fast power: x^n = (x^(n/2))\u00b2; handle negative n.",
+          "url": "https://leetcode.com/problems/powx-n/",
+          "premium": false
+        },
+        {
+          "nc": 142,
+          "lc": 43,
+          "title": "Multiply Strings",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Grade-school multiply into int[m+n]; handle carries; skip leading zeros.",
+          "url": "https://leetcode.com/problems/multiply-strings/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Sqrt(x)",
+          "lc": 69,
+          "pattern": "Math & Geometry",
+          "url": "https://leetcode.com/problems/sqrtx/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 83,
+      "type": "practice",
+      "patterns": [
+        "Bit Manipulation",
+        "Math & Geometry"
+      ],
+      "problems": [
+        {
+          "nc": 143,
+          "lc": 2013,
+          "title": "Detect Squares",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Count points; for each pair of diagonal candidates, check other two corners.",
+          "url": "https://leetcode.com/problems/detect-squares/",
+          "premium": false
+        },
+        {
+          "nc": 144,
+          "lc": 136,
+          "title": "Single Number",
+          "pattern": "Bit Manipulation",
+          "difficulty": "Easy",
+          "explanation": "XOR all: pairs cancel; leftover is unique.",
+          "url": "https://leetcode.com/problems/single-number/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Valid Square",
+          "lc": 593,
+          "pattern": "Math & Geometry",
+          "url": "https://leetcode.com/problems/valid-square/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 84,
+      "type": "revision",
+      "patterns": [
+        "Bit Manipulation",
+        "Math & Geometry"
+      ],
+      "problems": [
+        {
+          "nc": 141,
+          "lc": 50,
+          "title": "Pow(x, n)",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Fast power: x^n = (x^(n/2))\u00b2; handle negative n.",
+          "url": "https://leetcode.com/problems/powx-n/"
+        },
+        {
+          "nc": 142,
+          "lc": 43,
+          "title": "Multiply Strings",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Grade-school multiply into int[m+n]; handle carries; skip leading zeros.",
+          "url": "https://leetcode.com/problems/multiply-strings/"
+        },
+        {
+          "nc": 143,
+          "lc": 2013,
+          "title": "Detect Squares",
+          "pattern": "Math & Geometry",
+          "difficulty": "Medium",
+          "explanation": "Count points; for each pair of diagonal candidates, check other two corners.",
+          "url": "https://leetcode.com/problems/detect-squares/"
+        },
+        {
+          "nc": 144,
+          "lc": 136,
+          "title": "Single Number",
+          "pattern": "Bit Manipulation",
+          "difficulty": "Easy",
+          "explanation": "XOR all: pairs cancel; leftover is unique.",
+          "url": "https://leetcode.com/problems/single-number/"
+        }
+      ],
+      "similar": [],
+      "tasks": [
+        "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
+        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Note time/space complexity and one common pitfall.",
+        "If stuck >25 min, review notes then re-attempt blind."
+      ]
+    },
+    {
+      "day": 85,
+      "type": "practice",
+      "patterns": [
+        "Bit Manipulation"
+      ],
+      "problems": [
+        {
+          "nc": 145,
+          "lc": 191,
+          "title": "Number of 1 Bits",
+          "pattern": "Bit Manipulation",
+          "difficulty": "Easy",
+          "explanation": "n &= n-1 clears lowest set bit; count until zero. Or Integer.bitCount.",
+          "url": "https://leetcode.com/problems/number-of-1-bits/",
+          "premium": false
+        },
+        {
+          "nc": 146,
+          "lc": 338,
+          "title": "Counting Bits",
+          "pattern": "Bit Manipulation",
+          "difficulty": "Easy",
+          "explanation": "dp[i]=dp[i>>1]+(i&1). Or dp[i]=dp[i&(i-1)]+1.",
+          "url": "https://leetcode.com/problems/counting-bits/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Power of Two",
+          "lc": 231,
+          "pattern": "Bit Manipulation",
+          "url": "https://leetcode.com/problems/power-of-two/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 86,
+      "type": "practice",
+      "patterns": [
+        "Bit Manipulation"
+      ],
+      "problems": [
+        {
+          "nc": 147,
+          "lc": 190,
+          "title": "Reverse Bits",
+          "pattern": "Bit Manipulation",
+          "difficulty": "Easy",
+          "explanation": "Build result bit by bit: result<<1 | (n&1); n>>>=1 for 32 bits.",
+          "url": "https://leetcode.com/problems/reverse-bits/",
+          "premium": false
+        },
+        {
+          "nc": 148,
+          "lc": 268,
+          "title": "Missing Number",
+          "pattern": "Bit Manipulation",
+          "difficulty": "Easy",
+          "explanation": "XOR 0..n with all nums; missing remains. Or Gauss sum.",
+          "url": "https://leetcode.com/problems/missing-number/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Bitwise AND of Numbers Range",
+          "lc": 201,
+          "pattern": "Bit Manipulation",
+          "url": "https://leetcode.com/problems/bitwise-and-of-numbers-range/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    },
+    {
+      "day": 87,
+      "type": "practice",
+      "patterns": [
+        "Bit Manipulation"
+      ],
+      "problems": [
+        {
+          "nc": 149,
+          "lc": 371,
+          "title": "Sum of Two Integers",
+          "pattern": "Bit Manipulation",
+          "difficulty": "Medium",
+          "explanation": "Sum without + : XOR for sum bits, AND<<1 for carry; loop until carry 0.",
+          "url": "https://leetcode.com/problems/sum-of-two-integers/",
+          "premium": false
+        },
+        {
+          "nc": 150,
+          "lc": 7,
+          "title": "Reverse Integer",
+          "pattern": "Bit Manipulation",
+          "difficulty": "Medium",
+          "explanation": "Pop digits into rev; check overflow before *10+digit vs Integer.MAX/MIN.",
+          "url": "https://leetcode.com/problems/reverse-integer/",
+          "premium": false
+        }
+      ],
+      "similar": [
+        {
+          "title": "Add Binary",
+          "lc": 67,
+          "pattern": "Bit Manipulation",
+          "url": "https://leetcode.com/problems/add-binary/",
+          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+        }
+      ],
+      "tasks": [
+        "Read pattern notes (5\u201310 min) before coding.",
+        "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
+        "Solve Problem B timed with the same limits.",
+        "Attempt the similar problem OR re-solve the harder of A/B without notes.",
+        "Write 3 bullets: approach, complexity, one mistake to avoid.",
+        "Commit / save Solution.java under src/LeetCode{lc}/."
+      ]
+    }
+  ]
+}

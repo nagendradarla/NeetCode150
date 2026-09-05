@@ -1,0 +1,19 @@
+#!/bin/sh
+# Remove Cursor agent attribution from commit messages before they are recorded.
+# Enable: git config core.hooksPath .githooks
+MSG_FILE=${1:-}
+[ -n "$MSG_FILE" ] && [ -f "$MSG_FILE" ] || exit 0
+
+strip() {
+  pattern=$1
+  if sed --version >/dev/null 2>&1; then
+    sed -i "$pattern" "$MSG_FILE"
+  else
+    sed -i '' "$pattern" "$MSG_FILE"
+  fi
+}
+
+strip '/cursoragent@cursor\.com/d'
+strip '/^Co-authored-by: Cursor/d'
+strip '/^Made-with: Cursor/d'
+exit 0

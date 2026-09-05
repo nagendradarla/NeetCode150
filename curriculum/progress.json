@@ -1,0 +1,21 @@
+{
+  "start_date": "2026-08-05",
+  "current_day": 5,
+  "completed_days": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "completed_problems": [
+    217,
+    242,
+    1,
+    49,
+    347,
+    238,
+    36,
+    271
+  ],
+  "timezone_note": "Schedule day advances when daily_practice.py --advance runs or after successful morning send."
+}

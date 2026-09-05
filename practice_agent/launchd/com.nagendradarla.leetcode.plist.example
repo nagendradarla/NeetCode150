@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Daily NeetCode practice Telegram alert (mirrors job-agent launchd).
+
+  Setup:
+    1. cp practice_agent/launchd/com.nagendradarla.leetcode.plist.example \\
+         practice_agent/launchd/com.nagendradarla.leetcode.plist
+    2. Replace REPLACE_LEETCODE_ROOT and REPLACE_HOME
+    3. cp practice_agent/launchd/com.nagendradarla.leetcode.plist ~/Library/LaunchAgents/
+    4. launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.nagendradarla.leetcode.plist
+
+  Default: every day at 8:00 AM local time.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.nagendradarla.leetcode</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>REPLACE_LEETCODE_ROOT/practice_agent/scripts/launchd_daily.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>WorkingDirectory</key>
+    <string>REPLACE_LEETCODE_ROOT/practice_agent</string>
+    <key>StandardOutPath</key>
+    <string>REPLACE_LEETCODE_ROOT/practice_agent/logs/launchd_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>REPLACE_LEETCODE_ROOT/practice_agent/logs/launchd_stderr.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>REPLACE_HOME</string>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+</dict>
+</plist>
