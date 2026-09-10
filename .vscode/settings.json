@@ -1,0 +1,37 @@
+{
+  "java.jdt.ls.java.home": "/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home",
+      "default": true
+    }
+  ],
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.debug.settings.console": "integratedTerminal",
+  "java.debug.settings.hotCodeReplace": "auto",
+  "java.debug.settings.onBuildFailureProceed": false,
+  "terminal.integrated.env.osx": {
+    "JAVA_HOME": "/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home",
+    "PATH": "/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home/bin:${env:PATH}"
+  },
+  "code-runner.runInTerminal": false,
+  "code-runner.executorMap": {
+    "java": "bash \"$workspaceRoot/scripts/run-java.sh\" $fullFileName"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "java.format.enabled": true,
+  "java.format.settings.url": ".vscode/java-formatter.xml",
+  "java.format.settings.profile": "LeetCode",
+  "java.format.comments.enabled": false,
+  "java.format.onType.enabled": true
+}

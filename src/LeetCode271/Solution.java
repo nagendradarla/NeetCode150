@@ -20,13 +20,26 @@ import java.util.*;
  */
 class Solution {
     public String encode(List<String> strs) {
-        // TODO
-        return "";
+        StringBuilder sb = new StringBuilder();
+        for (String str : strs) {
+            sb.append(str.length()).append("#").append(str);
+        }
+        return sb.toString();
     }
 
     public List<String> decode(String s) {
-        // TODO
-        return new ArrayList<>();
+        if (s == null || s.isEmpty()) {
+            return Collections.emptyList();
+        }
+        int i=0;
+        List<String> result = new ArrayList<>();
+        while (i < s.length()) {
+            int j = s.indexOf("#", i);
+            int length = Integer.parseInt(s.substring(i, j));
+            result.add(s.substring(j + 1, j + 1 + length));
+            i = j + 1 + length;
+        }
+        return result;
     }
 
     private static void assertRoundTrip(Solution sol, List<String> input, String label) {

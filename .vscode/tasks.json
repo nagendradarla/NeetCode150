@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "options": {
+    "env": {
+      "JAVA_HOME": "/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home",
+      "PATH": "/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home/bin:${env:PATH}"
+    }
+  },
+  "tasks": [
+    {
+      "label": "javac: current file",
+      "type": "shell",
+      "command": "javac",
+      "args": ["-d", "bin", "-g", "--release", "17", "${file}"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      },
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "java: run current file",
+      "type": "shell",
+      "command": "bash",
+      "args": ["scripts/run-java.sh", "${file}"],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
