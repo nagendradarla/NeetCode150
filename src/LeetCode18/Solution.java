@@ -41,9 +41,45 @@ import java.util.List;
  * Link: https://leetcode.com/problems/4sum/
  */
 class Solution {
+    List<List<Integer>> res = new ArrayList<>();
+
     public List<List<Integer>> fourSum(int[] nums, int target) {
-        // TODO
-        return new ArrayList<>();
+        Arrays.sort(nums);
+        kSum(nums, 0, nums.length - 1, target, 4, new ArrayList<Integer>());
+        return res;
+    }
+
+    // tar should be long to avoid overflow.
+    private void kSum(int[] nums, int l, int r, long tar, int k, List<Integer> quad) {
+        if (k == 2) {
+            while (l < r) {
+                long sum = (long)nums[l] + nums[r]; // cast to long to avoid int overflow
+                if (sum == tar) {
+                    List<Integer> newQuad = new ArrayList<Integer>(quad);
+                    newQuad.add(nums[l]);
+                    newQuad.add(nums[r]);
+                    res.add(newQuad);
+                    l++;
+                    r--;
+                    while (l<r && nums[l] == nums[l-1]) l++;
+                    while (l<r && nums[r] == nums[r+1]) r--;
+                } else if (sum < tar) {
+                    l++;
+                } else {
+                    r--;
+                }
+            }
+        } else {
+            for (int i = l; i <= nums.length - k; i++) {
+                if (i > l && nums[i] == nums[i - 1]) {
+                    continue;
+                }
+                long t = (long) tar - nums[i]; // cast to long to avoid int overflow
+                quad.add(nums[i]);
+                kSum(nums, i + 1, r, t, k - 1, quad);
+                quad.remove(quad.size() - 1);
+            }
+        }
     }
 
     public static void main(String[] args) {

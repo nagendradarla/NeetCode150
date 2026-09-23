@@ -1,13 +1,16 @@
 {
   "start_date": "2026-08-05",
-  "current_day": 7,
+  "current_day": 10,
   "completed_days": [
     1,
     2,
     3,
     4,
     5,
-    6
+    6,
+    7,
+    8,
+    9
   ],
   "completed_problems": [
     217,
@@ -21,7 +24,187 @@
     128,
     125,
     167,
-    15
+    15,
+    11,
+    42,
+    407,
+    121,
+    3,
+    122
   ],
-  "timezone_note": "Schedule day advances when daily_practice.py --advance runs or after successful morning send."
+  "timezone_note": "Schedule day advances only when daily_practice.py --advance runs (morning workflow does not auto-advance).",
+  "srs": {
+    "intervals_days": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "leetcode": {
+      "1": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Two Sum",
+        "url": "https://leetcode.com/problems/two-sum/",
+        "difficulty": "Easy",
+        "graduated": false
+      },
+      "3": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Longest Substring Without Repeating Characters",
+        "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "11": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Container With Most Water",
+        "url": "https://leetcode.com/problems/container-with-most-water/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "15": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "3Sum",
+        "url": "https://leetcode.com/problems/3sum/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "36": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Valid Sudoku",
+        "url": "https://leetcode.com/problems/valid-sudoku/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "42": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Trapping Rain Water",
+        "url": "https://leetcode.com/problems/trapping-rain-water/",
+        "difficulty": "Hard",
+        "graduated": false
+      },
+      "49": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Group Anagrams",
+        "url": "https://leetcode.com/problems/group-anagrams/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "121": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Best Time to Buy and Sell Stock",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+        "difficulty": "Easy",
+        "graduated": false
+      },
+      "122": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Best Time to Buy and Sell Stock II",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+        "difficulty": "",
+        "graduated": false
+      },
+      "125": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Valid Palindrome",
+        "url": "https://leetcode.com/problems/valid-palindrome/",
+        "difficulty": "Easy",
+        "graduated": false
+      },
+      "128": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Longest Consecutive Sequence",
+        "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "167": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Two Sum II Input Array Is Sorted",
+        "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "217": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Contains Duplicate",
+        "url": "https://leetcode.com/problems/contains-duplicate/",
+        "difficulty": "Easy",
+        "graduated": false
+      },
+      "238": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Product of Array Except Self",
+        "url": "https://leetcode.com/problems/product-of-array-except-self/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "242": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Valid Anagram",
+        "url": "https://leetcode.com/problems/valid-anagram/",
+        "difficulty": "Easy",
+        "graduated": false
+      },
+      "271": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Encode and Decode Strings",
+        "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "347": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Top K Frequent Elements",
+        "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "407": {
+        "completed_on": "2026-08-05",
+        "stage": 4,
+        "next_review": "2026-09-29",
+        "title": "Trapping Rain Water II",
+        "url": "https://leetcode.com/problems/trapping-rain-water-ii/",
+        "difficulty": "",
+        "graduated": false
+      }
+    },
+    "python_days": {}
+  }
 }

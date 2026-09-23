@@ -77,11 +77,20 @@ def get_day_plan(schedule: dict, day: int) -> dict | None:
 
 
 def format_message(day_plan: dict, progress: dict, meta: dict) -> str:
+    from practice_progress import (
+        completed_problem_ids,
+        filter_open_problems,
+        plan_has_open_problems,
+        problem_lc_ids,
+    )
+
     day = day_plan["day"]
     dtype = day_plan["type"]
     patterns = ", ".join(day_plan["patterns"]) or "—"
     total = meta["total_calendar_days"]
     week = (day - 1) // 7 + 1
+    completed = completed_problem_ids(progress)
+    open_plan = filter_open_problems(day_plan, completed)
 
     lines = [
         f"📚 NeetCode 150 — Day {day}/{total} (Week {week})",
@@ -90,10 +99,23 @@ def format_message(day_plan: dict, progress: dict, meta: dict) -> str:
         "",
     ]
 
+    if not plan_has_open_problems(day_plan, completed):
+        lines.append("All problems on this day are already marked done.")
+        lines.append("Run: python daily_practice.py --advance")
+        done = len(progress.get("completed_problems", []))
+        lines.append("")
+        lines.append(f"Progress: {done}/150 NeetCode problems marked done")
+        return "\n".join(lines)
+
+    skipped = len(problem_lc_ids(day_plan)) - len(problem_lc_ids(open_plan))
+    if skipped > 0:
+        lines.append(f"Skipped {skipped} already-completed problem(s).")
+        lines.append("")
+
     if dtype == "practice":
         lines.append("🎯 Today's core problems")
         index = 1
-        for p in day_plan["problems"]:
+        for p in open_plan.get("problems") or []:
             prem = " [Premium]" if p.get("premium") else ""
             lines.append(
                 f"{index}. LC {p['lc']} — {p['title']} ({p['difficulty']}){prem}\n"
@@ -104,7 +126,7 @@ def format_message(day_plan: dict, progress: dict, meta: dict) -> str:
             lines.append("")
             index += 1
 
-        for s in day_plan.get("similar") or []:
+        for s in open_plan.get("similar") or []:
             prem = " [Premium]" if s.get("premium") else ""
             diff = str(s.get("difficulty") or "").strip()
             diff_bit = f" ({diff})" if diff else ""
@@ -117,8 +139,8 @@ def format_message(day_plan: dict, progress: dict, meta: dict) -> str:
             lines.append("")
             index += 1
     else:
-        lines.append("🔄 Revision day — re-solve blind")
-        for p in day_plan["problems"]:
+        lines.append("🔄 Revision day — remaining unfinished only")
+        for p in open_plan.get("problems") or []:
             lines.append(
                 f"• LC {p['lc']} — {p['title']}\n"
                 f"  {p['url']}\n"
@@ -220,18 +242,15 @@ def run_daily(
     progress = ensure_start_date(load_progress())
 
     if advance:
+        from practice_progress import mark_leetcode_day_complete
+
         cur = int(progress.get("current_day", 1))
-        plan = get_day_plan(schedule, cur)
-        if plan:
-            for p in plan.get("problems", []):
-                lc = p["lc"]
-                if lc not in progress["completed_problems"]:
-                    progress["completed_problems"].append(lc)
-            if cur not in progress["completed_days"]:
-                progress["completed_days"].append(cur)
-        progress["current_day"] = min(cur + 1, schedule["meta"]["total_calendar_days"])
+        mark_leetcode_day_complete(schedule, progress, cur)
         save_json(PROGRESS_PATH, progress)
-        print(f"Advanced to day {progress['current_day']}. Completed problems: {len(progress['completed_problems'])}")
+        print(
+            f"Advanced to day {progress['current_day']}. "
+            f"Completed problems: {len(progress['completed_problems'])}"
+        )
         return
 
     target_day = day if day is not None else int(progress.get("current_day") or day_from_calendar(progress, schedule))
