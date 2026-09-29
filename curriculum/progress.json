@@ -1,6 +1,6 @@
 {
   "start_date": "2026-08-05",
-  "current_day": 10,
+  "current_day": 12,
   "completed_days": [
     1,
     2,
@@ -10,7 +10,9 @@
     6,
     7,
     8,
-    9
+    9,
+    10,
+    11
   ],
   "completed_problems": [
     217,
@@ -30,9 +32,15 @@
     407,
     121,
     3,
-    122
+    122,
+    424,
+    567,
+    1004,
+    76,
+    239,
+    632
   ],
-  "timezone_note": "Schedule day advances only when daily_practice.py --advance runs (morning workflow does not auto-advance).",
+  "timezone_note": "Schedule day advances only when daily_practice.py --advance runs (morning workflow does not auto-advance). SRS revision uses intervals 1\u21923\u21927\u219214\u219230 days.",
   "srs": {
     "intervals_days": [
       1,
@@ -203,6 +211,57 @@
         "url": "https://leetcode.com/problems/trapping-rain-water-ii/",
         "difficulty": "",
         "graduated": false
+      },
+      "424": {
+        "completed_on": "2026-09-23",
+        "stage": 1,
+        "next_review": "2026-10-01",
+        "title": "Longest Repeating Character Replacement",
+        "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "567": {
+        "completed_on": "2026-09-23",
+        "stage": 1,
+        "next_review": "2026-10-01",
+        "title": "Permutation in String",
+        "url": "https://leetcode.com/problems/permutation-in-string/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "1004": {
+        "completed_on": "2026-09-23",
+        "stage": 1,
+        "next_review": "2026-10-01",
+        "title": "Max Consecutive Ones III",
+        "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+        "difficulty": "",
+        "graduated": false
+      },
+      "76": {
+        "completed_on": "2026-09-28",
+        "stage": 0,
+        "next_review": "2026-09-29",
+        "title": "Minimum Window Substring",
+        "url": "https://leetcode.com/problems/minimum-window-substring/",
+        "difficulty": "Hard"
+      },
+      "239": {
+        "completed_on": "2026-09-28",
+        "stage": 0,
+        "next_review": "2026-09-29",
+        "title": "Sliding Window Maximum",
+        "url": "https://leetcode.com/problems/sliding-window-maximum/",
+        "difficulty": "Hard"
+      },
+      "632": {
+        "completed_on": "2026-09-28",
+        "stage": 0,
+        "next_review": "2026-09-29",
+        "title": "Smallest Range Covering Elements from K Lists",
+        "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+        "difficulty": ""
       }
     },
     "python_days": {}

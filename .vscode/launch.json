@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Solution",
       "request": "launch",
+      "mainClass": "LeetCode239.Solution",
+      "projectName": "LeetCode_2ae36010"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
       "mainClass": "LeetCode125.Solution",
       "projectName": "LeetCode_2ae36010"
     },
