@@ -33,7 +33,7 @@ package LeetCode1004;
  * Link: https://leetcode.com/problems/max-consecutive-ones-iii/
  * https://youtu.be/HsGKI02yw6M?si=1jMpYoNo7M1og8rP
  */
-class Solution { // O(n) time, O(1) space
+class Solution { // O(2n) time, O(1) space
     public int longestOnes(int[] nums, int k) {
         int l = 0, r = 0;
         int maxLen = 0;

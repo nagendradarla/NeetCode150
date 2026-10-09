@@ -5,6 +5,27 @@
       "type": "java",
       "name": "Solution",
       "request": "launch",
+      "mainClass": "LeetCode853.Solution",
+      "projectName": "LeetCode_2ae36010"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "LeetCode739.Solution",
+      "projectName": "LeetCode_2ae36010"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "LeetCode496.Solution",
+      "projectName": "LeetCode_2ae36010"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
       "mainClass": "LeetCode239.Solution",
       "projectName": "LeetCode_2ae36010"
     },

@@ -289,9 +289,15 @@ def run_daily(
         return
 
     # Lazy import so --advance / --status work without Telegram deps (certifi/urllib3).
-    from telegram_notify import send_telegram_chunks
+    from telegram_notify import send_telegram_long
 
-    send_telegram_chunks(msg)
+    send_telegram_long(msg)
+    try:
+        from practice_digest import send_practice_email
+    except ImportError:
+        print("Practice email skipped (job-agent/practice_digest.py not importable).")
+        return
+    send_practice_email(msg, subject=f"LeetCode practice {date.today().isoformat()}")
 
 
 def status() -> None:

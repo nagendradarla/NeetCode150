@@ -1,6 +1,6 @@
 {
   "start_date": "2026-08-05",
-  "current_day": 12,
+  "current_day": 16,
   "completed_days": [
     1,
     2,
@@ -12,7 +12,11 @@
     8,
     9,
     10,
-    11
+    11,
+    12,
+    13,
+    14,
+    15
   ],
   "completed_problems": [
     217,
@@ -38,7 +42,16 @@
     1004,
     76,
     239,
-    632
+    632,
+    20,
+    155,
+    301,
+    150,
+    22,
+    224,
+    739,
+    853,
+    496
   ],
   "timezone_note": "Schedule day advances only when daily_practice.py --advance runs (morning workflow does not auto-advance). SRS revision uses intervals 1\u21923\u21927\u219214\u219230 days.",
   "srs": {
@@ -52,170 +65,188 @@
     "leetcode": {
       "1": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Two Sum",
         "url": "https://leetcode.com/problems/two-sum/",
         "difficulty": "Easy",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "3": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Longest Substring Without Repeating Characters",
         "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "11": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Container With Most Water",
         "url": "https://leetcode.com/problems/container-with-most-water/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "15": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "3Sum",
         "url": "https://leetcode.com/problems/3sum/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "36": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Valid Sudoku",
         "url": "https://leetcode.com/problems/valid-sudoku/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "42": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Trapping Rain Water",
         "url": "https://leetcode.com/problems/trapping-rain-water/",
         "difficulty": "Hard",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "49": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Group Anagrams",
         "url": "https://leetcode.com/problems/group-anagrams/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "121": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Best Time to Buy and Sell Stock",
         "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
         "difficulty": "Easy",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "122": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Best Time to Buy and Sell Stock II",
         "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
         "difficulty": "",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "125": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Valid Palindrome",
         "url": "https://leetcode.com/problems/valid-palindrome/",
         "difficulty": "Easy",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "128": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Longest Consecutive Sequence",
         "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "167": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Two Sum II Input Array Is Sorted",
         "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "217": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Contains Duplicate",
         "url": "https://leetcode.com/problems/contains-duplicate/",
         "difficulty": "Easy",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "238": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Product of Array Except Self",
         "url": "https://leetcode.com/problems/product-of-array-except-self/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "242": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Valid Anagram",
         "url": "https://leetcode.com/problems/valid-anagram/",
         "difficulty": "Easy",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "271": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Encode and Decode Strings",
         "url": "https://leetcode.com/problems/encode-and-decode-strings/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "347": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Top K Frequent Elements",
         "url": "https://leetcode.com/problems/top-k-frequent-elements/",
         "difficulty": "Medium",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "407": {
         "completed_on": "2026-08-05",
-        "stage": 4,
-        "next_review": "2026-09-29",
+        "stage": 5,
+        "next_review": null,
         "title": "Trapping Rain Water II",
         "url": "https://leetcode.com/problems/trapping-rain-water-ii/",
         "difficulty": "",
-        "graduated": false
+        "graduated": true,
+        "graduated_on": "2026-10-02"
       },
       "424": {
         "completed_on": "2026-09-23",
-        "stage": 1,
-        "next_review": "2026-10-01",
+        "stage": 3,
+        "next_review": "2026-10-23",
         "title": "Longest Repeating Character Replacement",
         "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
         "difficulty": "Medium",
@@ -223,8 +254,8 @@
       },
       "567": {
         "completed_on": "2026-09-23",
-        "stage": 1,
-        "next_review": "2026-10-01",
+        "stage": 3,
+        "next_review": "2026-10-23",
         "title": "Permutation in String",
         "url": "https://leetcode.com/problems/permutation-in-string/",
         "difficulty": "Medium",
@@ -232,8 +263,8 @@
       },
       "1004": {
         "completed_on": "2026-09-23",
-        "stage": 1,
-        "next_review": "2026-10-01",
+        "stage": 3,
+        "next_review": "2026-10-23",
         "title": "Max Consecutive Ones III",
         "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
         "difficulty": "",
@@ -241,26 +272,107 @@
       },
       "76": {
         "completed_on": "2026-09-28",
-        "stage": 0,
-        "next_review": "2026-09-29",
+        "stage": 2,
+        "next_review": "2026-10-13",
         "title": "Minimum Window Substring",
         "url": "https://leetcode.com/problems/minimum-window-substring/",
-        "difficulty": "Hard"
+        "difficulty": "Hard",
+        "graduated": false
       },
       "239": {
         "completed_on": "2026-09-28",
-        "stage": 0,
-        "next_review": "2026-09-29",
+        "stage": 2,
+        "next_review": "2026-10-13",
         "title": "Sliding Window Maximum",
         "url": "https://leetcode.com/problems/sliding-window-maximum/",
-        "difficulty": "Hard"
+        "difficulty": "Hard",
+        "graduated": false
       },
       "632": {
         "completed_on": "2026-09-28",
-        "stage": 0,
-        "next_review": "2026-09-29",
+        "stage": 2,
+        "next_review": "2026-10-13",
         "title": "Smallest Range Covering Elements from K Lists",
         "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+        "difficulty": "",
+        "graduated": false
+      },
+      "20": {
+        "completed_on": "2026-10-02",
+        "stage": 2,
+        "next_review": "2026-10-16",
+        "title": "Valid Parentheses",
+        "url": "https://leetcode.com/problems/valid-parentheses/",
+        "difficulty": "Easy",
+        "graduated": false
+      },
+      "155": {
+        "completed_on": "2026-10-02",
+        "stage": 2,
+        "next_review": "2026-10-16",
+        "title": "Min Stack",
+        "url": "https://leetcode.com/problems/min-stack/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "301": {
+        "completed_on": "2026-10-02",
+        "stage": 2,
+        "next_review": "2026-10-16",
+        "title": "Remove Invalid Parentheses",
+        "url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+        "difficulty": "",
+        "graduated": false
+      },
+      "150": {
+        "completed_on": "2026-10-06",
+        "stage": 1,
+        "next_review": "2026-10-12",
+        "title": "Evaluate Reverse Polish Notation",
+        "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "22": {
+        "completed_on": "2026-10-06",
+        "stage": 1,
+        "next_review": "2026-10-12",
+        "title": "Generate Parentheses",
+        "url": "https://leetcode.com/problems/generate-parentheses/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "224": {
+        "completed_on": "2026-10-06",
+        "stage": 1,
+        "next_review": "2026-10-12",
+        "title": "Basic Calculator",
+        "url": "https://leetcode.com/problems/basic-calculator/",
+        "difficulty": "",
+        "graduated": false
+      },
+      "739": {
+        "completed_on": "2026-10-09",
+        "stage": 0,
+        "next_review": "2026-10-10",
+        "title": "Daily Temperatures",
+        "url": "https://leetcode.com/problems/daily-temperatures/",
+        "difficulty": "Medium"
+      },
+      "853": {
+        "completed_on": "2026-10-09",
+        "stage": 0,
+        "next_review": "2026-10-10",
+        "title": "Car Fleet",
+        "url": "https://leetcode.com/problems/car-fleet/",
+        "difficulty": "Medium"
+      },
+      "496": {
+        "completed_on": "2026-10-09",
+        "stage": 0,
+        "next_review": "2026-10-10",
+        "title": "Next Greater Element I",
+        "url": "https://leetcode.com/problems/next-greater-element-i/",
         "difficulty": ""
       }
     },
