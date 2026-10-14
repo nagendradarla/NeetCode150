@@ -1,6 +1,6 @@
 {
   "start_date": "2026-08-05",
-  "current_day": 16,
+  "current_day": 18,
   "completed_days": [
     1,
     2,
@@ -16,7 +16,9 @@
     12,
     13,
     14,
-    15
+    15,
+    16,
+    17
   ],
   "completed_problems": [
     217,
@@ -51,7 +53,13 @@
     224,
     739,
     853,
-    496
+    496,
+    84,
+    704,
+    85,
+    74,
+    875,
+    240
   ],
   "timezone_note": "Schedule day advances only when daily_practice.py --advance runs (morning workflow does not auto-advance). SRS revision uses intervals 1\u21923\u21927\u219214\u219230 days.",
   "srs": {
@@ -149,7 +157,7 @@
         "next_review": null,
         "title": "Best Time to Buy and Sell Stock II",
         "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
-        "difficulty": "",
+        "difficulty": "Medium",
         "graduated": true,
         "graduated_on": "2026-10-02"
       },
@@ -239,7 +247,7 @@
         "next_review": null,
         "title": "Trapping Rain Water II",
         "url": "https://leetcode.com/problems/trapping-rain-water-ii/",
-        "difficulty": "",
+        "difficulty": "Hard",
         "graduated": true,
         "graduated_on": "2026-10-02"
       },
@@ -267,13 +275,13 @@
         "next_review": "2026-10-23",
         "title": "Max Consecutive Ones III",
         "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
-        "difficulty": "",
+        "difficulty": "Medium",
         "graduated": false
       },
       "76": {
         "completed_on": "2026-09-28",
-        "stage": 2,
-        "next_review": "2026-10-13",
+        "stage": 3,
+        "next_review": "2026-10-27",
         "title": "Minimum Window Substring",
         "url": "https://leetcode.com/problems/minimum-window-substring/",
         "difficulty": "Hard",
@@ -281,8 +289,8 @@
       },
       "239": {
         "completed_on": "2026-09-28",
-        "stage": 2,
-        "next_review": "2026-10-13",
+        "stage": 3,
+        "next_review": "2026-10-27",
         "title": "Sliding Window Maximum",
         "url": "https://leetcode.com/problems/sliding-window-maximum/",
         "difficulty": "Hard",
@@ -290,11 +298,11 @@
       },
       "632": {
         "completed_on": "2026-09-28",
-        "stage": 2,
-        "next_review": "2026-10-13",
+        "stage": 3,
+        "next_review": "2026-10-27",
         "title": "Smallest Range Covering Elements from K Lists",
         "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
-        "difficulty": "",
+        "difficulty": "Hard",
         "graduated": false
       },
       "20": {
@@ -321,13 +329,13 @@
         "next_review": "2026-10-16",
         "title": "Remove Invalid Parentheses",
         "url": "https://leetcode.com/problems/remove-invalid-parentheses/",
-        "difficulty": "",
+        "difficulty": "Hard",
         "graduated": false
       },
       "150": {
         "completed_on": "2026-10-06",
-        "stage": 1,
-        "next_review": "2026-10-12",
+        "stage": 2,
+        "next_review": "2026-10-20",
         "title": "Evaluate Reverse Polish Notation",
         "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
         "difficulty": "Medium",
@@ -335,8 +343,8 @@
       },
       "22": {
         "completed_on": "2026-10-06",
-        "stage": 1,
-        "next_review": "2026-10-12",
+        "stage": 2,
+        "next_review": "2026-10-20",
         "title": "Generate Parentheses",
         "url": "https://leetcode.com/problems/generate-parentheses/",
         "difficulty": "Medium",
@@ -344,36 +352,90 @@
       },
       "224": {
         "completed_on": "2026-10-06",
-        "stage": 1,
-        "next_review": "2026-10-12",
+        "stage": 2,
+        "next_review": "2026-10-20",
         "title": "Basic Calculator",
         "url": "https://leetcode.com/problems/basic-calculator/",
-        "difficulty": "",
+        "difficulty": "Hard",
         "graduated": false
       },
       "739": {
         "completed_on": "2026-10-09",
-        "stage": 0,
-        "next_review": "2026-10-10",
+        "stage": 2,
+        "next_review": "2026-10-20",
         "title": "Daily Temperatures",
         "url": "https://leetcode.com/problems/daily-temperatures/",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "graduated": false
       },
       "853": {
         "completed_on": "2026-10-09",
-        "stage": 0,
-        "next_review": "2026-10-10",
+        "stage": 2,
+        "next_review": "2026-10-20",
         "title": "Car Fleet",
         "url": "https://leetcode.com/problems/car-fleet/",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "graduated": false
       },
       "496": {
         "completed_on": "2026-10-09",
-        "stage": 0,
-        "next_review": "2026-10-10",
+        "stage": 2,
+        "next_review": "2026-10-20",
         "title": "Next Greater Element I",
         "url": "https://leetcode.com/problems/next-greater-element-i/",
-        "difficulty": ""
+        "difficulty": "Easy",
+        "graduated": false
+      },
+      "84": {
+        "completed_on": "2026-10-10",
+        "stage": 1,
+        "next_review": "2026-10-16",
+        "title": "Largest Rectangle in Histogram",
+        "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+        "difficulty": "Hard",
+        "graduated": false
+      },
+      "704": {
+        "completed_on": "2026-10-10",
+        "stage": 1,
+        "next_review": "2026-10-16",
+        "title": "Binary Search",
+        "url": "https://leetcode.com/problems/binary-search/",
+        "difficulty": "Easy",
+        "graduated": false
+      },
+      "85": {
+        "completed_on": "2026-10-10",
+        "stage": 1,
+        "next_review": "2026-10-16",
+        "title": "Maximal Rectangle",
+        "url": "https://leetcode.com/problems/maximal-rectangle/",
+        "difficulty": "Hard",
+        "graduated": false
+      },
+      "74": {
+        "completed_on": "2026-10-13",
+        "stage": 0,
+        "next_review": "2026-10-14",
+        "title": "Search a 2D Matrix",
+        "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+        "difficulty": "Medium"
+      },
+      "875": {
+        "completed_on": "2026-10-13",
+        "stage": 0,
+        "next_review": "2026-10-14",
+        "title": "Koko Eating Bananas",
+        "url": "https://leetcode.com/problems/koko-eating-bananas/",
+        "difficulty": "Medium"
+      },
+      "240": {
+        "completed_on": "2026-10-13",
+        "stage": 0,
+        "next_review": "2026-10-14",
+        "title": "Search a 2D Matrix II",
+        "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+        "difficulty": "Medium"
       }
     },
     "python_days": {}

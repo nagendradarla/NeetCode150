@@ -81,7 +81,7 @@ class Solution {
             cars[i][1] = speed[i];
         }
 
-        Arrays.sort(cars, (a, b) -> Double.compare(b[0], a[0]));
+        Arrays.sort(cars, (a, b) -> Double.compare(b[0], a[0])); // Sort by position in descending order
         Deque<Double> stack = new ArrayDeque<Double>();
         for (double[] car : cars) {
             double time = (target - car[0]) / car[1];

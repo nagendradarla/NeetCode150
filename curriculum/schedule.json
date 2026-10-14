@@ -8,7 +8,7 @@
     "total_practice_days": 75,
     "total_revision_days": 12,
     "estimated_weeks": 12.4,
-    "pace_note": "2 NeetCode problems + 1 similar per practice day; 1 revision day every week. ~12\u201313 weeks to finish all 150."
+    "pace_note": "2 NeetCode problems + 1 similar per practice day; 1 revision day every week. ~12–13 weeks to finish all 150."
   },
   "pattern_day_ranges": {
     "Arrays & Hashing": {
@@ -239,11 +239,12 @@
           "lc": 219,
           "pattern": "Arrays & Hashing",
           "url": "https://leetcode.com/problems/contains-duplicate-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -264,7 +265,7 @@
           "title": "Two Sum",
           "pattern": "Arrays & Hashing",
           "difficulty": "Easy",
-          "explanation": "One-pass HashMap: for each num, check if target-num exists. Store value\u2192index as you go.",
+          "explanation": "One-pass HashMap: for each num, check if target-num exists. Store value→index as you go.",
           "url": "https://leetcode.com/problems/two-sum/",
           "premium": false
         },
@@ -285,11 +286,12 @@
           "lc": 18,
           "pattern": "Arrays & Hashing",
           "url": "https://leetcode.com/problems/4sum/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -320,7 +322,7 @@
           "title": "Product of Array Except Self",
           "pattern": "Arrays & Hashing",
           "difficulty": "Medium",
-          "explanation": "Prefix products left\u2192right, then multiply by suffix products right\u2192left. O(n) without division.",
+          "explanation": "Prefix products left→right, then multiply by suffix products right→left. O(n) without division.",
           "url": "https://leetcode.com/problems/product-of-array-except-self/",
           "premium": false
         }
@@ -331,11 +333,12 @@
           "lc": 692,
           "pattern": "Arrays & Hashing",
           "url": "https://leetcode.com/problems/top-k-frequent-words/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -356,7 +359,7 @@
           "title": "Valid Sudoku",
           "pattern": "Arrays & Hashing",
           "difficulty": "Medium",
-          "explanation": "Track seen digits in rows, cols, and 3\u00d73 boxes with HashSets (or bitmasks). Reject duplicates.",
+          "explanation": "Track seen digits in rows, cols, and 3×3 boxes with HashSets (or bitmasks). Reject duplicates.",
           "url": "https://leetcode.com/problems/valid-sudoku/",
           "premium": false
         },
@@ -377,11 +380,12 @@
           "lc": 37,
           "pattern": "Arrays & Hashing",
           "url": "https://leetcode.com/problems/sudoku-solver/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -424,11 +428,12 @@
           "lc": 549,
           "pattern": "Arrays & Hashing",
           "url": "https://leetcode.com/problems/longest-consecutive-sequence-ii-tree/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -470,11 +475,12 @@
           "lc": 16,
           "pattern": "Two Pointers",
           "url": "https://leetcode.com/problems/3sum-closest/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -530,7 +536,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -569,11 +575,12 @@
           "lc": 407,
           "pattern": "Two Pointers",
           "url": "https://leetcode.com/problems/trapping-rain-water-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -615,11 +622,12 @@
           "lc": 122,
           "pattern": "Sliding Window",
           "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -661,11 +669,12 @@
           "lc": 1004,
           "pattern": "Sliding Window",
           "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -707,11 +716,12 @@
           "lc": 632,
           "pattern": "Sliding Window",
           "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -732,7 +742,7 @@
           "title": "Valid Parentheses",
           "pattern": "Stack",
           "difficulty": "Easy",
-          "explanation": "Push opens; on close, pop and match. Stack empty at end \u21d2 valid.",
+          "explanation": "Push opens; on close, pop and match. Stack empty at end ⇒ valid.",
           "url": "https://leetcode.com/problems/valid-parentheses/",
           "premium": false
         },
@@ -753,11 +763,12 @@
           "lc": 301,
           "pattern": "Stack",
           "url": "https://leetcode.com/problems/remove-invalid-parentheses/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -799,11 +810,12 @@
           "lc": 224,
           "pattern": "Stack",
           "url": "https://leetcode.com/problems/basic-calculator/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -824,7 +836,7 @@
           "title": "Valid Parentheses",
           "pattern": "Stack",
           "difficulty": "Easy",
-          "explanation": "Push opens; on close, pop and match. Stack empty at end \u21d2 valid.",
+          "explanation": "Push opens; on close, pop and match. Stack empty at end ⇒ valid.",
           "url": "https://leetcode.com/problems/valid-parentheses/"
         },
         {
@@ -858,7 +870,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -897,11 +909,12 @@
           "lc": 496,
           "pattern": "Stack",
           "url": "https://leetcode.com/problems/next-greater-element-i/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -923,7 +936,7 @@
           "title": "Largest Rectangle in Histogram",
           "pattern": "Stack",
           "difficulty": "Hard",
-          "explanation": "Monotonic increasing stack of indices. When height drops, pop and compute width\u00d7height areas.",
+          "explanation": "Monotonic increasing stack of indices. When height drops, pop and compute width×height areas.",
           "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
           "premium": false
         },
@@ -944,11 +957,12 @@
           "lc": 85,
           "pattern": "Stack",
           "url": "https://leetcode.com/problems/maximal-rectangle/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -969,7 +983,7 @@
           "title": "Search a 2D Matrix",
           "pattern": "Binary Search",
           "difficulty": "Medium",
-          "explanation": "Treat matrix as sorted 1D array: mid \u2192 row=mid/cols, col=mid%cols. Or binary search row then col.",
+          "explanation": "Treat matrix as sorted 1D array: mid → row=mid/cols, col=mid%cols. Or binary search row then col.",
           "url": "https://leetcode.com/problems/search-a-2d-matrix/",
           "premium": false
         },
@@ -990,11 +1004,12 @@
           "lc": 240,
           "pattern": "Binary Search",
           "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1036,11 +1051,12 @@
           "lc": 154,
           "pattern": "Binary Search",
           "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1061,7 +1077,7 @@
           "title": "Time Based Key-Value Store",
           "pattern": "Binary Search",
           "difficulty": "Medium",
-          "explanation": "Map key \u2192 list of (timestamp, value) sorted by time. Binary search latest \u2264 timestamp.",
+          "explanation": "Map key → list of (timestamp, value) sorted by time. Binary search latest ≤ timestamp.",
           "url": "https://leetcode.com/problems/time-based-key-value-store/",
           "premium": false
         },
@@ -1071,7 +1087,7 @@
           "title": "Median of Two Sorted Arrays",
           "pattern": "Binary Search",
           "difficulty": "Hard",
-          "explanation": "Binary search partition on smaller array so left halves \u2264 right halves. O(log(min(m,n))).",
+          "explanation": "Binary search partition on smaller array so left halves ≤ right halves. O(log(min(m,n))).",
           "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
           "premium": false
         }
@@ -1082,11 +1098,12 @@
           "lc": 1146,
           "pattern": "Binary Search",
           "url": "https://leetcode.com/problems/snapshot-array/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1128,11 +1145,12 @@
           "lc": 92,
           "pattern": "Linked List",
           "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1154,7 +1172,7 @@
           "title": "Time Based Key-Value Store",
           "pattern": "Binary Search",
           "difficulty": "Medium",
-          "explanation": "Map key \u2192 list of (timestamp, value) sorted by time. Binary search latest \u2264 timestamp.",
+          "explanation": "Map key → list of (timestamp, value) sorted by time. Binary search latest ≤ timestamp.",
           "url": "https://leetcode.com/problems/time-based-key-value-store/"
         },
         {
@@ -1163,7 +1181,7 @@
           "title": "Median of Two Sorted Arrays",
           "pattern": "Binary Search",
           "difficulty": "Hard",
-          "explanation": "Binary search partition on smaller array so left halves \u2264 right halves. O(log(min(m,n))).",
+          "explanation": "Binary search partition on smaller array so left halves ≤ right halves. O(log(min(m,n))).",
           "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
         },
         {
@@ -1188,7 +1206,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -1227,11 +1245,12 @@
           "lc": 234,
           "pattern": "Linked List",
           "url": "https://leetcode.com/problems/palindrome-linked-list/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1252,7 +1271,7 @@
           "title": "Copy List with Random Pointer",
           "pattern": "Linked List",
           "difficulty": "Medium",
-          "explanation": "HashMap old\u2192new, or interleave clones then split. Wire next and random via map.",
+          "explanation": "HashMap old→new, or interleave clones then split. Wire next and random via map.",
           "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
           "premium": false
         },
@@ -1273,11 +1292,12 @@
           "lc": 445,
           "pattern": "Linked List",
           "url": "https://leetcode.com/problems/add-two-numbers-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1298,7 +1318,7 @@
           "title": "Linked List Cycle",
           "pattern": "Linked List",
           "difficulty": "Easy",
-          "explanation": "Floyd: slow/fast pointers. Meet \u21d2 cycle. Or HashSet of visited nodes.",
+          "explanation": "Floyd: slow/fast pointers. Meet ⇒ cycle. Or HashSet of visited nodes.",
           "url": "https://leetcode.com/problems/linked-list-cycle/",
           "premium": false
         },
@@ -1308,7 +1328,7 @@
           "title": "Find the Duplicate Number",
           "pattern": "Linked List",
           "difficulty": "Medium",
-          "explanation": "Treat array as linked list (i\u2192nums[i]). Floyd cycle detection finds entrance = duplicate.",
+          "explanation": "Treat array as linked list (i→nums[i]). Floyd cycle detection finds entrance = duplicate.",
           "url": "https://leetcode.com/problems/find-the-duplicate-number/",
           "premium": false
         }
@@ -1319,11 +1339,12 @@
           "lc": 142,
           "pattern": "Linked List",
           "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1365,11 +1386,12 @@
           "lc": 460,
           "pattern": "Linked List",
           "url": "https://leetcode.com/problems/lfu-cache/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1412,11 +1434,12 @@
           "lc": 24,
           "pattern": "Linked List",
           "url": "https://leetcode.com/problems/swap-nodes-in-pairs/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1458,11 +1481,12 @@
           "lc": 111,
           "pattern": "Trees",
           "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1518,7 +1542,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -1557,11 +1581,12 @@
           "lc": 108,
           "pattern": "Trees",
           "url": "https://leetcode.com/problems/convert-sorted-array-to-bst/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1603,11 +1628,12 @@
           "lc": 652,
           "pattern": "Trees",
           "url": "https://leetcode.com/problems/find-duplicate-subtrees/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1649,11 +1675,12 @@
           "lc": 103,
           "pattern": "Trees",
           "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1695,11 +1722,12 @@
           "lc": 112,
           "pattern": "Trees",
           "url": "https://leetcode.com/problems/path-sum/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1741,11 +1769,12 @@
           "lc": 173,
           "pattern": "Trees",
           "url": "https://leetcode.com/problems/binary-search-tree-iterator/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1787,11 +1816,12 @@
           "lc": 437,
           "pattern": "Trees",
           "url": "https://leetcode.com/problems/path-sum-iii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1846,7 +1876,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -1885,11 +1915,12 @@
           "lc": 648,
           "pattern": "Tries",
           "url": "https://leetcode.com/problems/replace-words/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1932,11 +1963,12 @@
           "lc": 336,
           "pattern": "Tries",
           "url": "https://leetcode.com/problems/palindrome-pairs/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -1967,7 +1999,7 @@
           "title": "K Closest Points to Origin",
           "pattern": "Heap / Priority Queue",
           "difficulty": "Medium",
-          "explanation": "Max-heap of size k by distance, or sort by dist\u00b2. Avoid sqrt.",
+          "explanation": "Max-heap of size k by distance, or sort by dist². Avoid sqrt.",
           "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
           "premium": false
         }
@@ -1978,11 +2010,12 @@
           "lc": 1049,
           "pattern": "Heap / Priority Queue",
           "url": "https://leetcode.com/problems/last-stone-weight-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2024,11 +2057,12 @@
           "lc": 378,
           "pattern": "Heap / Priority Queue",
           "url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2070,11 +2104,12 @@
           "lc": 362,
           "pattern": "Heap / Priority Queue",
           "url": "https://leetcode.com/problems/design-hit-counter/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2116,11 +2151,12 @@
           "lc": 77,
           "pattern": "Backtracking",
           "url": "https://leetcode.com/problems/combinations/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2176,7 +2212,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -2215,11 +2251,12 @@
           "lc": 47,
           "pattern": "Backtracking",
           "url": "https://leetcode.com/problems/permutations-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2261,11 +2298,12 @@
           "lc": 1219,
           "pattern": "Backtracking",
           "url": "https://leetcode.com/problems/path-with-maximum-gold/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2296,7 +2334,7 @@
           "title": "Letter Combinations of a Phone Number",
           "pattern": "Backtracking",
           "difficulty": "Medium",
-          "explanation": "Map digit\u2192letters; DFS append one letter per digit position.",
+          "explanation": "Map digit→letters; DFS append one letter per digit position.",
           "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
           "premium": false
         }
@@ -2307,11 +2345,12 @@
           "lc": 132,
           "pattern": "Backtracking",
           "url": "https://leetcode.com/problems/palindrome-partitioning-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2354,11 +2393,12 @@
           "lc": 52,
           "pattern": "Backtracking",
           "url": "https://leetcode.com/problems/n-queens-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2379,7 +2419,7 @@
           "title": "Clone Graph",
           "pattern": "Graphs",
           "difficulty": "Medium",
-          "explanation": "HashMap old\u2192new. DFS/BFS clone nodes then wire neighbors.",
+          "explanation": "HashMap old→new. DFS/BFS clone nodes then wire neighbors.",
           "url": "https://leetcode.com/problems/clone-graph/",
           "premium": false
         },
@@ -2400,11 +2440,12 @@
           "lc": 1485,
           "pattern": "Graphs",
           "url": "https://leetcode.com/problems/clone-binary-tree-with-random-pointer/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2435,7 +2476,7 @@
           "title": "Surrounded Regions",
           "pattern": "Graphs",
           "difficulty": "Medium",
-          "explanation": "Mark 'O's connected to border as safe. Flip remaining 'O'\u2192'X'.",
+          "explanation": "Mark 'O's connected to border as safe. Flip remaining 'O'→'X'.",
           "url": "https://leetcode.com/problems/surrounded-regions/",
           "premium": false
         }
@@ -2446,11 +2487,12 @@
           "lc": 542,
           "pattern": "Graphs",
           "url": "https://leetcode.com/problems/01-matrix/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2471,7 +2513,7 @@
           "title": "Clone Graph",
           "pattern": "Graphs",
           "difficulty": "Medium",
-          "explanation": "HashMap old\u2192new. DFS/BFS clone nodes then wire neighbors.",
+          "explanation": "HashMap old→new. DFS/BFS clone nodes then wire neighbors.",
           "url": "https://leetcode.com/problems/clone-graph/"
         },
         {
@@ -2498,14 +2540,14 @@
           "title": "Surrounded Regions",
           "pattern": "Graphs",
           "difficulty": "Medium",
-          "explanation": "Mark 'O's connected to border as safe. Flip remaining 'O'\u2192'X'.",
+          "explanation": "Mark 'O's connected to border as safe. Flip remaining 'O'→'X'.",
           "url": "https://leetcode.com/problems/surrounded-regions/"
         }
       ],
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -2544,11 +2586,12 @@
           "lc": 1091,
           "pattern": "Graphs",
           "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2569,7 +2612,7 @@
           "title": "Course Schedule",
           "pattern": "Graphs",
           "difficulty": "Medium",
-          "explanation": "Detect cycle in directed graph (DFS colors or Kahn indegree). Cycle \u21d2 impossible.",
+          "explanation": "Detect cycle in directed graph (DFS colors or Kahn indegree). Cycle ⇒ impossible.",
           "url": "https://leetcode.com/problems/course-schedule/",
           "premium": false
         },
@@ -2590,11 +2633,12 @@
           "lc": 210,
           "pattern": "Graphs",
           "url": "https://leetcode.com/problems/course-schedule-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2636,11 +2680,12 @@
           "lc": 685,
           "pattern": "Graphs",
           "url": "https://leetcode.com/problems/redundant-connection-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2682,11 +2727,12 @@
           "lc": 126,
           "pattern": "Graphs",
           "url": "https://leetcode.com/problems/word-ladder-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2728,11 +2774,12 @@
           "lc": 753,
           "pattern": "Advanced Graphs",
           "url": "https://leetcode.com/problems/cracking-the-safe/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2774,11 +2821,12 @@
           "lc": 1631,
           "pattern": "Advanced Graphs",
           "url": "https://leetcode.com/problems/path-with-minimum-effort/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2833,7 +2881,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -2872,11 +2920,12 @@
           "lc": 444,
           "pattern": "Advanced Graphs",
           "url": "https://leetcode.com/problems/sequence-reconstruction/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2918,11 +2967,12 @@
           "lc": 509,
           "pattern": "1-D Dynamic Programming",
           "url": "https://leetcode.com/problems/fibonacci-number/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -2964,11 +3014,12 @@
           "lc": 337,
           "pattern": "1-D Dynamic Programming",
           "url": "https://leetcode.com/problems/house-robber-iii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3010,11 +3061,12 @@
           "lc": 516,
           "pattern": "1-D Dynamic Programming",
           "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3035,7 +3087,7 @@
           "title": "Decode Ways",
           "pattern": "1-D Dynamic Programming",
           "difficulty": "Medium",
-          "explanation": "dp[i]= ways ending at i. Take 1 digit if nonzero; take 2 if 10\u201326.",
+          "explanation": "dp[i]= ways ending at i. Take 1 digit if nonzero; take 2 if 10–26.",
           "url": "https://leetcode.com/problems/decode-ways/",
           "premium": false
         },
@@ -3056,11 +3108,12 @@
           "lc": 639,
           "pattern": "1-D Dynamic Programming",
           "url": "https://leetcode.com/problems/decode-ways-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3102,11 +3155,12 @@
           "lc": 918,
           "pattern": "1-D Dynamic Programming",
           "url": "https://leetcode.com/problems/maximum-sum-circular-subarray/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3127,7 +3181,7 @@
           "title": "Decode Ways",
           "pattern": "1-D Dynamic Programming",
           "difficulty": "Medium",
-          "explanation": "dp[i]= ways ending at i. Take 1 digit if nonzero; take 2 if 10\u201326.",
+          "explanation": "dp[i]= ways ending at i. Take 1 digit if nonzero; take 2 if 10–26.",
           "url": "https://leetcode.com/problems/decode-ways/"
         },
         {
@@ -3161,7 +3215,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -3179,7 +3233,7 @@
           "title": "Longest Increasing Subsequence",
           "pattern": "1-D Dynamic Programming",
           "difficulty": "Medium",
-          "explanation": "O(n\u00b2) DP or O(n log n) patience sorting with tails array + binary search.",
+          "explanation": "O(n²) DP or O(n log n) patience sorting with tails array + binary search.",
           "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
           "premium": false
         },
@@ -3200,11 +3254,12 @@
           "lc": 673,
           "pattern": "1-D Dynamic Programming",
           "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3246,11 +3301,12 @@
           "lc": 63,
           "pattern": "2-D Dynamic Programming",
           "url": "https://leetcode.com/problems/unique-paths-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3292,11 +3348,12 @@
           "lc": 714,
           "pattern": "2-D Dynamic Programming",
           "url": "https://leetcode.com/problems/best-time-with-transaction-fee/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3317,7 +3374,7 @@
           "title": "Target Sum",
           "pattern": "2-D Dynamic Programming",
           "difficulty": "Medium",
-          "explanation": "Assign \u00b1; equivalent to subset sum of (total+target)/2.",
+          "explanation": "Assign ±; equivalent to subset sum of (total+target)/2.",
           "url": "https://leetcode.com/problems/target-sum/",
           "premium": false
         },
@@ -3338,11 +3395,12 @@
           "lc": 474,
           "pattern": "2-D Dynamic Programming",
           "url": "https://leetcode.com/problems/ones-and-zeroes/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3384,11 +3442,12 @@
           "lc": 1219,
           "pattern": "2-D Dynamic Programming",
           "url": "https://leetcode.com/problems/path-with-maximum-gold/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3430,11 +3489,12 @@
           "lc": 161,
           "pattern": "2-D Dynamic Programming",
           "url": "https://leetcode.com/problems/one-edit-distance/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3489,7 +3549,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -3529,11 +3589,12 @@
           "lc": 44,
           "pattern": "2-D Dynamic Programming",
           "url": "https://leetcode.com/problems/wildcard-matching/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3575,11 +3636,12 @@
           "lc": 1306,
           "pattern": "Greedy",
           "url": "https://leetcode.com/problems/jump-game-iii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3621,11 +3683,12 @@
           "lc": 1296,
           "pattern": "Greedy",
           "url": "https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3667,11 +3730,12 @@
           "lc": 2275,
           "pattern": "Greedy",
           "url": "https://leetcode.com/problems/largest-combination-with-bitwise-and/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3714,11 +3778,12 @@
           "lc": 1249,
           "pattern": "Greedy",
           "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3760,11 +3825,12 @@
           "lc": 452,
           "pattern": "Intervals",
           "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3820,7 +3886,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -3848,7 +3914,7 @@
           "title": "Meeting Rooms II",
           "pattern": "Intervals",
           "difficulty": "Medium",
-          "explanation": "Premium. Min-heap of end times, or sweep line +/\u22121 at start/end.",
+          "explanation": "Premium. Min-heap of end times, or sweep line +/−1 at start/end.",
           "url": "https://leetcode.com/problems/meeting-rooms-ii/",
           "premium": true
         }
@@ -3859,11 +3925,12 @@
           "lc": 1094,
           "pattern": "Intervals",
           "url": "https://leetcode.com/problems/car-pooling/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3906,11 +3973,12 @@
           "lc": 218,
           "pattern": "Intervals",
           "url": "https://leetcode.com/problems/the-skyline-problem/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Hard"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3952,11 +4020,12 @@
           "lc": 59,
           "pattern": "Math & Geometry",
           "url": "https://leetcode.com/problems/spiral-matrix-ii/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -3998,11 +4067,12 @@
           "lc": 263,
           "pattern": "Math & Geometry",
           "url": "https://leetcode.com/problems/ugly-number/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -4023,7 +4093,7 @@
           "title": "Pow(x, n)",
           "pattern": "Math & Geometry",
           "difficulty": "Medium",
-          "explanation": "Fast power: x^n = (x^(n/2))\u00b2; handle negative n.",
+          "explanation": "Fast power: x^n = (x^(n/2))²; handle negative n.",
           "url": "https://leetcode.com/problems/powx-n/",
           "premium": false
         },
@@ -4044,11 +4114,12 @@
           "lc": 69,
           "pattern": "Math & Geometry",
           "url": "https://leetcode.com/problems/sqrtx/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -4091,11 +4162,12 @@
           "lc": 593,
           "pattern": "Math & Geometry",
           "url": "https://leetcode.com/problems/valid-square/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -4117,7 +4189,7 @@
           "title": "Pow(x, n)",
           "pattern": "Math & Geometry",
           "difficulty": "Medium",
-          "explanation": "Fast power: x^n = (x^(n/2))\u00b2; handle negative n.",
+          "explanation": "Fast power: x^n = (x^(n/2))²; handle negative n.",
           "url": "https://leetcode.com/problems/powx-n/"
         },
         {
@@ -4151,7 +4223,7 @@
       "similar": [],
       "tasks": [
         "Re-solve each revision problem from scratch (no peeking at old code for 20+ min).",
-        "Write the pattern intuition in 3\u20135 bullet points.",
+        "Write the pattern intuition in 3–5 bullet points.",
         "Note time/space complexity and one common pitfall.",
         "If stuck >25 min, review notes then re-attempt blind."
       ]
@@ -4190,11 +4262,12 @@
           "lc": 231,
           "pattern": "Bit Manipulation",
           "url": "https://leetcode.com/problems/power-of-two/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -4236,11 +4309,12 @@
           "lc": 201,
           "pattern": "Bit Manipulation",
           "url": "https://leetcode.com/problems/bitwise-and-of-numbers-range/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Medium"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
@@ -4282,11 +4356,12 @@
           "lc": 67,
           "pattern": "Bit Manipulation",
           "url": "https://leetcode.com/problems/add-binary/",
-          "note": "Reinforcement \u2014 same pattern, attempt after core problems"
+          "note": "Reinforcement — same pattern, attempt after core problems",
+          "difficulty": "Easy"
         }
       ],
       "tasks": [
-        "Read pattern notes (5\u201310 min) before coding.",
+        "Read pattern notes (5–10 min) before coding.",
         "Solve Problem A timed (Easy 20 / Medium 35 / Hard 45 min).",
         "Solve Problem B timed with the same limits.",
         "Attempt the similar problem OR re-solve the harder of A/B without notes.",
