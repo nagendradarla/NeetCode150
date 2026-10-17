@@ -43,11 +43,44 @@ package LeetCode154;
  * Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
  */
 class Solution {
-    // TODO: implement
+    public int findMin(int[] nums) {
+        int l = 0, r = nums.length - 1;
+        while (l < r) {
+            while (l < r && nums[l] == nums[l + 1]) {
+                l++;
+            }
+            while (l < r && nums[r] == nums[r - 1]) {
+                r--;
+            }
+            int mid = (l + r) >>> 1;
+            if (nums[mid] > nums[r]) {
+                l = mid + 1;
+            } else {
+                r = mid;
+            }
+        }
+        return nums[l];
+        /*while (l < r) {
+            int mid = (l+r) >>> 1;
+            if (nums[mid] > nums[r]) {
+                //min is in right half
+                l = mid+1;
+            } else if (nums[mid] < nums[r]) {
+                r = mid;
+            } else {
+                r--;
+            }
+        }
+        return nums[l];*/
+    }
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        // TODO: add sample test inputs for Find Minimum in Rotated Sorted Array II
-        System.out.println("LC 154: Find Minimum in Rotated Sorted Array II — implement Solution then add sample calls here.");
+        int[] nums = { 3, 4, 5, 1, 2 };
+        System.out.println(sol.findMin(nums) == 1 ? "Test passed" : "Test failed");
+        nums = new int[] { 4, 5, 6, 7, 0, 1, 2 };
+        System.out.println(sol.findMin(nums) == 0 ? "Test passed" : "Test failed");
+        nums = new int[] { 11, 13, 15, 17 };
+        System.out.println(sol.findMin(nums) == 11 ? "Test passed" : "Test failed");
     }
 }

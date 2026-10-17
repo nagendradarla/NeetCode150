@@ -1,6 +1,6 @@
 {
   "start_date": "2026-08-05",
-  "current_day": 18,
+  "current_day": 19,
   "completed_days": [
     1,
     2,
@@ -18,7 +18,8 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ],
   "completed_problems": [
     217,
@@ -59,7 +60,10 @@
     85,
     74,
     875,
-    240
+    240,
+    153,
+    33,
+    154
   ],
   "timezone_note": "Schedule day advances only when daily_practice.py --advance runs (morning workflow does not auto-advance). SRS revision uses intervals 1\u21923\u21927\u219214\u219230 days.",
   "srs": {
@@ -307,8 +311,8 @@
       },
       "20": {
         "completed_on": "2026-10-02",
-        "stage": 2,
-        "next_review": "2026-10-16",
+        "stage": 3,
+        "next_review": "2026-10-30",
         "title": "Valid Parentheses",
         "url": "https://leetcode.com/problems/valid-parentheses/",
         "difficulty": "Easy",
@@ -316,8 +320,8 @@
       },
       "155": {
         "completed_on": "2026-10-02",
-        "stage": 2,
-        "next_review": "2026-10-16",
+        "stage": 3,
+        "next_review": "2026-10-30",
         "title": "Min Stack",
         "url": "https://leetcode.com/problems/min-stack/",
         "difficulty": "Medium",
@@ -325,8 +329,8 @@
       },
       "301": {
         "completed_on": "2026-10-02",
-        "stage": 2,
-        "next_review": "2026-10-16",
+        "stage": 3,
+        "next_review": "2026-10-30",
         "title": "Remove Invalid Parentheses",
         "url": "https://leetcode.com/problems/remove-invalid-parentheses/",
         "difficulty": "Hard",
@@ -388,8 +392,8 @@
       },
       "84": {
         "completed_on": "2026-10-10",
-        "stage": 1,
-        "next_review": "2026-10-16",
+        "stage": 2,
+        "next_review": "2026-10-23",
         "title": "Largest Rectangle in Histogram",
         "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
         "difficulty": "Hard",
@@ -397,8 +401,8 @@
       },
       "704": {
         "completed_on": "2026-10-10",
-        "stage": 1,
-        "next_review": "2026-10-16",
+        "stage": 2,
+        "next_review": "2026-10-23",
         "title": "Binary Search",
         "url": "https://leetcode.com/problems/binary-search/",
         "difficulty": "Easy",
@@ -406,8 +410,8 @@
       },
       "85": {
         "completed_on": "2026-10-10",
-        "stage": 1,
-        "next_review": "2026-10-16",
+        "stage": 2,
+        "next_review": "2026-10-23",
         "title": "Maximal Rectangle",
         "url": "https://leetcode.com/problems/maximal-rectangle/",
         "difficulty": "Hard",
@@ -415,27 +419,54 @@
       },
       "74": {
         "completed_on": "2026-10-13",
-        "stage": 0,
-        "next_review": "2026-10-14",
+        "stage": 1,
+        "next_review": "2026-10-19",
         "title": "Search a 2D Matrix",
         "url": "https://leetcode.com/problems/search-a-2d-matrix/",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "graduated": false
       },
       "875": {
         "completed_on": "2026-10-13",
-        "stage": 0,
-        "next_review": "2026-10-14",
+        "stage": 1,
+        "next_review": "2026-10-19",
         "title": "Koko Eating Bananas",
         "url": "https://leetcode.com/problems/koko-eating-bananas/",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "graduated": false
       },
       "240": {
         "completed_on": "2026-10-13",
-        "stage": 0,
-        "next_review": "2026-10-14",
+        "stage": 1,
+        "next_review": "2026-10-19",
         "title": "Search a 2D Matrix II",
         "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "153": {
+        "completed_on": "2026-10-16",
+        "stage": 0,
+        "next_review": "2026-10-17",
+        "title": "Find Minimum in Rotated Sorted Array",
+        "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
         "difficulty": "Medium"
+      },
+      "33": {
+        "completed_on": "2026-10-16",
+        "stage": 0,
+        "next_review": "2026-10-17",
+        "title": "Search in Rotated Sorted Array",
+        "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+        "difficulty": "Medium"
+      },
+      "154": {
+        "completed_on": "2026-10-16",
+        "stage": 0,
+        "next_review": "2026-10-17",
+        "title": "Find Minimum in Rotated Sorted Array II",
+        "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
+        "difficulty": "Hard"
       }
     },
     "python_days": {}
