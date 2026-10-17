@@ -16,4 +16,6 @@ strip() {
 strip '/cursoragent@cursor\.com/d'
 strip '/^Co-authored-by: Cursor/d'
 strip '/^Made-with: Cursor/d'
+strip '/^Co-authored-by: Copilot/d'
+strip '/Copilot@users\.noreply\.github\.com/d'
 exit 0
