@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TimeMap",
+      "request": "launch",
+      "mainClass": "LeetCode981.TimeMap",
+      "projectName": "LeetCode_2ae36010"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "LeetCode4.Solution",
+      "projectName": "LeetCode_2ae36010"
+    },
+    {
+      "type": "java",
+      "name": "SnapshotArray",
+      "request": "launch",
+      "mainClass": "LeetCode1146.SnapshotArray",
+      "projectName": "LeetCode_2ae36010"
+    },
+    {
+      "type": "java",
       "name": "Solution",
       "request": "launch",
       "mainClass": "LeetCode154.Solution",
