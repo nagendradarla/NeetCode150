@@ -5,6 +5,10 @@
     "Sliding Window",
     "Stack",
     "Binary Search",
+    "Greedy",
+    "Intervals",
+    "Math & Geometry",
+    "Bit Manipulation",
     "Linked List",
     "Trees",
     "Tries",
@@ -13,11 +17,7 @@
     "Graphs",
     "Advanced Graphs",
     "1-D Dynamic Programming",
-    "2-D Dynamic Programming",
-    "Greedy",
-    "Intervals",
-    "Math & Geometry",
-    "Bit Manipulation"
+    "2-D Dynamic Programming"
   ],
   "problems": [
     {

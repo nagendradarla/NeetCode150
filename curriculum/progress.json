@@ -67,7 +67,10 @@
     154,
     981,
     4,
-    1146
+    1146,
+    206,
+    21,
+    92
   ],
   "timezone_note": "Schedule day advances only when daily_practice.py --advance runs (morning workflow does not auto-advance). SRS revision uses intervals 1\u21923\u21927\u219214\u219230 days.",
   "srs": {
@@ -477,29 +480,58 @@
       },
       "981": {
         "completed_on": "2026-10-20",
-        "stage": 0,
-        "next_review": "2026-10-21",
+        "stage": 1,
+        "next_review": "2026-10-24",
         "title": "Time Based Key-Value Store",
         "url": "https://leetcode.com/problems/time-based-key-value-store/",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "graduated": false
       },
       "4": {
         "completed_on": "2026-10-20",
-        "stage": 0,
-        "next_review": "2026-10-21",
+        "stage": 1,
+        "next_review": "2026-10-24",
         "title": "Median of Two Sorted Arrays",
         "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-        "difficulty": "Hard"
+        "difficulty": "Hard",
+        "graduated": false
       },
       "1146": {
         "completed_on": "2026-10-20",
-        "stage": 0,
-        "next_review": "2026-10-21",
+        "stage": 1,
+        "next_review": "2026-10-24",
         "title": "Snapshot Array",
         "url": "https://leetcode.com/problems/snapshot-array/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "206": {
+        "completed_on": "2026-10-21",
+        "stage": 0,
+        "next_review": "2026-10-22",
+        "title": "Reverse Linked List",
+        "url": "https://leetcode.com/problems/reverse-linked-list/",
+        "difficulty": "Easy"
+      },
+      "21": {
+        "completed_on": "2026-10-21",
+        "stage": 0,
+        "next_review": "2026-10-22",
+        "title": "Merge Two Sorted Lists",
+        "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+        "difficulty": "Easy"
+      },
+      "92": {
+        "completed_on": "2026-10-21",
+        "stage": 0,
+        "next_review": "2026-10-22",
+        "title": "Reverse Linked List II",
+        "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
         "difficulty": "Medium"
       }
     },
     "python_days": {}
-  }
+  },
+  "active_list": "list_reordered.txt",
+  "order_note": "Switched 2026-10-21: Greedy\u2192Intervals\u2192Math\u2192Bit, then Linked List onward."
 }

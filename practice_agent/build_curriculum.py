@@ -23,7 +23,11 @@ CURRICULUM_DIR = ROOT / "curriculum"
 def build_schedule() -> dict:
     by_nc = {p["nc"]: p for p in PROBLEMS}
     practice_days: list[dict] = []
-    ordered = sorted(PROBLEMS, key=lambda p: p["nc"])
+    pattern_rank = {name: idx for idx, name in enumerate(PATTERN_ORDER)}
+    ordered = sorted(
+        PROBLEMS,
+        key=lambda p: (pattern_rank.get(p["pattern"], 999), p["nc"]),
+    )
 
     # Chunk into pairs of 2 NeetCode problems
     pairs: list[list[dict]] = []

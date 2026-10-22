@@ -927,11 +927,17 @@ PROBLEMS: list[dict] = [
 ]
 
 PATTERN_ORDER = [
+    # Active order: finish early patterns, then Greedy→Intervals→Math→Bit,
+    # then resume Linked List and the rest. See ../list_reordered.txt.
     "Arrays & Hashing",
     "Two Pointers",
     "Sliding Window",
     "Stack",
     "Binary Search",
+    "Greedy",
+    "Intervals",
+    "Math & Geometry",
+    "Bit Manipulation",
     "Linked List",
     "Trees",
     "Tries",
@@ -941,10 +947,6 @@ PATTERN_ORDER = [
     "Advanced Graphs",
     "1-D Dynamic Programming",
     "2-D Dynamic Programming",
-    "Greedy",
-    "Intervals",
-    "Math & Geometry",
-    "Bit Manipulation",
 ]
 
 NEEDS_LIST_NODE = {35, 36, 37, 38, 40, 41, 44, 45}

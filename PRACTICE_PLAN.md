@@ -40,26 +40,29 @@ This is intentionally not “2 full patterns per day” (that would rush Trees/D
 
 ## Pattern roadmap
 
-| # | Pattern | Problems | Rough week |
-|---|---------|----------|------------|
-| 1 | Arrays & Hashing | 9 | Week 1 |
-| 2 | Two Pointers | 5 | Week 1–2 |
-| 3 | Sliding Window | 6 | Week 2 |
-| 4 | Stack | 7 | Week 2–3 |
-| 5 | Binary Search | 7 | Week 3 |
-| 6 | Linked List | 11 | Week 3–4 |
-| 7 | Trees | 15 | Week 4–5 |
-| 8 | Tries | 3 | Week 5 |
-| 9 | Heap / Priority Queue | 7 | Week 5–6 |
-| 10 | Backtracking | 9 | Week 6 |
-| 11 | Graphs | 13 | Week 7 |
-| 12 | Advanced Graphs | 6 | Week 7–8 |
-| 13 | 1-D DP | 12 | Week 8–9 |
-| 14 | 2-D DP | 11 | Week 9–10 |
-| 15 | Greedy | 8 | Week 10 |
-| 16 | Intervals | 6 | Week 11 |
-| 17 | Math & Geometry | 8 | Week 11–12 |
-| 18 | Bit Manipulation | 7 | Week 12–13 |
+Active order is in `list_reordered.txt` (and `PATTERN_ORDER` in `practice_agent/curriculum_data.py`).
+Original NeetCode list remains in `list.txt`.
+
+| # | Pattern | Problems | Notes |
+|---|---------|----------|-------|
+| 1 | Arrays & Hashing | 9 | Done / early |
+| 2 | Two Pointers | 5 | Done / early |
+| 3 | Sliding Window | 6 | Done / early |
+| 4 | Stack | 7 | Done / early |
+| 5 | Binary Search | 7 | Done / early |
+| 6 | Greedy | 8 | **Next** (moved up) |
+| 7 | Intervals | 6 | Moved up |
+| 8 | Math & Geometry | 8 | Moved up |
+| 9 | Bit Manipulation | 7 | Moved up |
+| 10 | Linked List | 11 | Resume after Bit Manipulation |
+| 11 | Trees | 15 | |
+| 12 | Tries | 3 | |
+| 13 | Heap / Priority Queue | 7 | |
+| 14 | Backtracking | 9 | |
+| 15 | Graphs | 13 | |
+| 16 | Advanced Graphs | 6 | |
+| 17 | 1-D DP | 12 | |
+| 18 | 2-D DP | 11 | |
 
 Exact day numbers live in `curriculum/schedule.json` (generated).
 
@@ -177,6 +180,7 @@ Same package style as your existing `LeetCode17`, `LeetCode51`, `LeetCode200`.
 | Path | Purpose |
 |------|---------|
 | `list.txt` | Original NeetCode 150 list |
+| `list_reordered.txt` | Active practice order (Greedy→…→Bit, then Linked List→…) |
 | `curriculum/problems.json` | All 150 + explanations + similar + stubs |
 | `curriculum/schedule.json` | Day-by-day plan |
 | `curriculum/progress.json` | Your current day / completed set |

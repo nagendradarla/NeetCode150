@@ -69,7 +69,9 @@ Details and pattern roadmap: [PRACTICE_PLAN.md](./PRACTICE_PLAN.md)
 
 ## Patterns covered
 
-Arrays & Hashing · Two Pointers · Sliding Window · Stack · Binary Search · Linked List · Trees · Tries · Heap / Priority Queue · Backtracking · Graphs · Advanced Graphs · 1-D DP · 2-D DP · Greedy · Intervals · Math & Geometry · Bit Manipulation
+Arrays & Hashing · Two Pointers · Sliding Window · Stack · Binary Search · Greedy · Intervals · Math & Geometry · Bit Manipulation · Linked List · Trees · Tries · Heap / Priority Queue · Backtracking · Graphs · Advanced Graphs · 1-D DP · 2-D DP
+
+Active order: `list_reordered.txt` (original: `list.txt`).
 
 ---
 

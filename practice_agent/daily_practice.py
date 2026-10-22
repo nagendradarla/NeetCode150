@@ -294,8 +294,8 @@ def run_daily(
     send_telegram_long(msg)
     try:
         from practice_digest import send_practice_email
-    except ImportError:
-        print("Practice email skipped (job-agent/practice_digest.py not importable).")
+    except ImportError as exc:
+        print(f"Practice email skipped (cannot import job-agent/practice_digest.py: {exc}).")
         return
     send_practice_email(msg, subject=f"LeetCode practice {date.today().isoformat()}")
 
