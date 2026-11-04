@@ -1,6 +1,6 @@
 {
   "start_date": "2026-08-05",
-  "current_day": 20,
+  "current_day": 23,
   "completed_days": [
     1,
     2,
@@ -20,7 +20,10 @@
     16,
     17,
     18,
-    19
+    19,
+    20,
+    21,
+    22
   ],
   "completed_problems": [
     217,
@@ -70,7 +73,13 @@
     1146,
     206,
     21,
-    92
+    92,
+    53,
+    55,
+    918,
+    45,
+    134,
+    1024
   ],
   "timezone_note": "Schedule day advances only when daily_practice.py --advance runs (morning workflow does not auto-advance). SRS revision uses intervals 1\u21923\u21927\u219214\u219230 days.",
   "srs": {
@@ -264,8 +273,8 @@
       },
       "424": {
         "completed_on": "2026-09-23",
-        "stage": 3,
-        "next_review": "2026-10-23",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Longest Repeating Character Replacement",
         "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
         "difficulty": "Medium",
@@ -273,8 +282,8 @@
       },
       "567": {
         "completed_on": "2026-09-23",
-        "stage": 3,
-        "next_review": "2026-10-23",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Permutation in String",
         "url": "https://leetcode.com/problems/permutation-in-string/",
         "difficulty": "Medium",
@@ -282,8 +291,8 @@
       },
       "1004": {
         "completed_on": "2026-09-23",
-        "stage": 3,
-        "next_review": "2026-10-23",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Max Consecutive Ones III",
         "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
         "difficulty": "Medium",
@@ -291,8 +300,8 @@
       },
       "76": {
         "completed_on": "2026-09-28",
-        "stage": 3,
-        "next_review": "2026-10-27",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Minimum Window Substring",
         "url": "https://leetcode.com/problems/minimum-window-substring/",
         "difficulty": "Hard",
@@ -300,8 +309,8 @@
       },
       "239": {
         "completed_on": "2026-09-28",
-        "stage": 3,
-        "next_review": "2026-10-27",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Sliding Window Maximum",
         "url": "https://leetcode.com/problems/sliding-window-maximum/",
         "difficulty": "Hard",
@@ -309,8 +318,8 @@
       },
       "632": {
         "completed_on": "2026-09-28",
-        "stage": 3,
-        "next_review": "2026-10-27",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Smallest Range Covering Elements from K Lists",
         "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
         "difficulty": "Hard",
@@ -318,8 +327,8 @@
       },
       "20": {
         "completed_on": "2026-10-02",
-        "stage": 3,
-        "next_review": "2026-10-30",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Valid Parentheses",
         "url": "https://leetcode.com/problems/valid-parentheses/",
         "difficulty": "Easy",
@@ -327,8 +336,8 @@
       },
       "155": {
         "completed_on": "2026-10-02",
-        "stage": 3,
-        "next_review": "2026-10-30",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Min Stack",
         "url": "https://leetcode.com/problems/min-stack/",
         "difficulty": "Medium",
@@ -336,8 +345,8 @@
       },
       "301": {
         "completed_on": "2026-10-02",
-        "stage": 3,
-        "next_review": "2026-10-30",
+        "stage": 4,
+        "next_review": "2026-12-02",
         "title": "Remove Invalid Parentheses",
         "url": "https://leetcode.com/problems/remove-invalid-parentheses/",
         "difficulty": "Hard",
@@ -399,8 +408,8 @@
       },
       "84": {
         "completed_on": "2026-10-10",
-        "stage": 2,
-        "next_review": "2026-10-23",
+        "stage": 3,
+        "next_review": "2026-11-16",
         "title": "Largest Rectangle in Histogram",
         "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
         "difficulty": "Hard",
@@ -408,8 +417,8 @@
       },
       "704": {
         "completed_on": "2026-10-10",
-        "stage": 2,
-        "next_review": "2026-10-23",
+        "stage": 3,
+        "next_review": "2026-11-16",
         "title": "Binary Search",
         "url": "https://leetcode.com/problems/binary-search/",
         "difficulty": "Easy",
@@ -417,8 +426,8 @@
       },
       "85": {
         "completed_on": "2026-10-10",
-        "stage": 2,
-        "next_review": "2026-10-23",
+        "stage": 3,
+        "next_review": "2026-11-16",
         "title": "Maximal Rectangle",
         "url": "https://leetcode.com/problems/maximal-rectangle/",
         "difficulty": "Hard",
@@ -426,8 +435,8 @@
       },
       "74": {
         "completed_on": "2026-10-13",
-        "stage": 2,
-        "next_review": "2026-10-27",
+        "stage": 3,
+        "next_review": "2026-11-16",
         "title": "Search a 2D Matrix",
         "url": "https://leetcode.com/problems/search-a-2d-matrix/",
         "difficulty": "Medium",
@@ -435,8 +444,8 @@
       },
       "875": {
         "completed_on": "2026-10-13",
-        "stage": 2,
-        "next_review": "2026-10-27",
+        "stage": 3,
+        "next_review": "2026-11-16",
         "title": "Koko Eating Bananas",
         "url": "https://leetcode.com/problems/koko-eating-bananas/",
         "difficulty": "Medium",
@@ -444,8 +453,8 @@
       },
       "240": {
         "completed_on": "2026-10-13",
-        "stage": 2,
-        "next_review": "2026-10-27",
+        "stage": 3,
+        "next_review": "2026-11-16",
         "title": "Search a 2D Matrix II",
         "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
         "difficulty": "Medium",
@@ -453,8 +462,8 @@
       },
       "153": {
         "completed_on": "2026-10-16",
-        "stage": 1,
-        "next_review": "2026-10-23",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Find Minimum in Rotated Sorted Array",
         "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
         "difficulty": "Medium",
@@ -462,8 +471,8 @@
       },
       "33": {
         "completed_on": "2026-10-16",
-        "stage": 1,
-        "next_review": "2026-10-23",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Search in Rotated Sorted Array",
         "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
         "difficulty": "Medium",
@@ -471,8 +480,8 @@
       },
       "154": {
         "completed_on": "2026-10-16",
-        "stage": 1,
-        "next_review": "2026-10-23",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Find Minimum in Rotated Sorted Array II",
         "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
         "difficulty": "Hard",
@@ -480,8 +489,8 @@
       },
       "981": {
         "completed_on": "2026-10-20",
-        "stage": 1,
-        "next_review": "2026-10-24",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Time Based Key-Value Store",
         "url": "https://leetcode.com/problems/time-based-key-value-store/",
         "difficulty": "Medium",
@@ -489,8 +498,8 @@
       },
       "4": {
         "completed_on": "2026-10-20",
-        "stage": 1,
-        "next_review": "2026-10-24",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Median of Two Sorted Arrays",
         "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
         "difficulty": "Hard",
@@ -498,8 +507,8 @@
       },
       "1146": {
         "completed_on": "2026-10-20",
-        "stage": 1,
-        "next_review": "2026-10-24",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Snapshot Array",
         "url": "https://leetcode.com/problems/snapshot-array/",
         "difficulty": "Medium",
@@ -507,26 +516,80 @@
       },
       "206": {
         "completed_on": "2026-10-21",
-        "stage": 0,
-        "next_review": "2026-10-22",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Reverse Linked List",
         "url": "https://leetcode.com/problems/reverse-linked-list/",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "graduated": false
       },
       "21": {
         "completed_on": "2026-10-21",
-        "stage": 0,
-        "next_review": "2026-10-22",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Merge Two Sorted Lists",
         "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "graduated": false
       },
       "92": {
         "completed_on": "2026-10-21",
-        "stage": 0,
-        "next_review": "2026-10-22",
+        "stage": 2,
+        "next_review": "2026-11-09",
         "title": "Reverse Linked List II",
         "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "53": {
+        "completed_on": "2026-10-22",
+        "stage": 1,
+        "next_review": "2026-11-05",
+        "title": "Maximum Subarray",
+        "url": "https://leetcode.com/problems/maximum-subarray/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "55": {
+        "completed_on": "2026-10-22",
+        "stage": 1,
+        "next_review": "2026-11-05",
+        "title": "Jump Game",
+        "url": "https://leetcode.com/problems/jump-game/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "918": {
+        "completed_on": "2026-10-22",
+        "stage": 1,
+        "next_review": "2026-11-05",
+        "title": "Maximum Sum Circular Subarray",
+        "url": "https://leetcode.com/problems/maximum-sum-circular-subarray/",
+        "difficulty": "Medium",
+        "graduated": false
+      },
+      "45": {
+        "completed_on": "2026-11-02",
+        "stage": 0,
+        "next_review": "2026-11-03",
+        "title": "Jump Game II",
+        "url": "https://leetcode.com/problems/jump-game-ii/",
+        "difficulty": "Medium"
+      },
+      "134": {
+        "completed_on": "2026-11-02",
+        "stage": 0,
+        "next_review": "2026-11-03",
+        "title": "Gas Station",
+        "url": "https://leetcode.com/problems/gas-station/",
+        "difficulty": "Medium"
+      },
+      "1024": {
+        "completed_on": "2026-11-02",
+        "stage": 0,
+        "next_review": "2026-11-03",
+        "title": "Video Stitching",
+        "url": "https://leetcode.com/problems/video-stitching/",
         "difficulty": "Medium"
       }
     },
