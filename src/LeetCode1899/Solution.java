@@ -1,5 +1,8 @@
 package LeetCode1899;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * NeetCode #127 | LeetCode 1899: Merge Triplets to Form Target Triplet
  * Pattern: Greedy | Difficulty: Medium
@@ -48,13 +51,34 @@ package LeetCode1899;
  */
 class Solution {
     public boolean mergeTriplets(int[][] triplets, int[] target) {
-        // TODO
-        return false;
+        List<int[]> result = new ArrayList<int[]>();
+        boolean x = false, y = false, z = false;
+        for (int[] triplet : triplets) {
+            // If any element in the triplet is greater than zero, skip it as it overshoots the element value corresponding to target element
+            if (triplet[0] > target[0] || triplet[1] > target[1] || triplet[2] > target[2]) {
+                continue;
+            }
+            if (triplet[0] == target[0] || x) {
+                x = true;
+            }
+            if (triplet[1] == target[1] || y) {
+                y = true;
+            }
+            if (triplet[2] == target[2] || z) {
+                z = true;
+            }
+            // Optimization : Early exist
+            if (x && y && z) {
+                return true;
+            }
+        }
+        return x && y && z;
     }
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        // TODO: add sample calls for Merge Triplets to Form Target Triplet
-        // Signature: public boolean mergeTriplets(int[][] triplets, int[] target) {
-        }
+        System.out.println(sol.mergeTriplets(new int[][]{{2,5,3},{1,8,4},{1,7,5}}, new int[]{2,7,5}) ? "PASS" : "FAIL"); // true
+        System.out.println(sol.mergeTriplets(new int[][]{{3,4,5},{4,5,6}}, new int[]{3,2,5}) ? "FAIL" : "PASS"); // false
+        System.out.println(sol.mergeTriplets(new int[][]{{2,5,3},{2,3,4},{1,2,5},{5,2,3}}, new int[]{5,5,5}) ? "PASS" : "FAIL"); // true
+    }
 }

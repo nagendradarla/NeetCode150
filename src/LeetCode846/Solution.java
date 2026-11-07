@@ -1,5 +1,8 @@
 package LeetCode846;
 
+import java.util.HashMap;
+import java.util.PriorityQueue;
+
 /**
  * NeetCode #126 | LeetCode 846: Hand of Straights
  * Pattern: Greedy | Difficulty: Medium
@@ -42,13 +45,39 @@ package LeetCode846;
  */
 class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
-        // TODO
-        return false;
+        if (hand.length % groupSize != 0) return false;
+        PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
+        HashMap<Integer, Integer> handCount = new HashMap<Integer, Integer>();
+        for (int h : hand) {
+            minHeap.offer(h);
+            handCount.put(h, handCount.getOrDefault(h, 0)+1);
+        }
+        while(!minHeap.isEmpty()) {
+            // Update the minHeap, poll the min values whose count is 0;
+            while (!minHeap.isEmpty() && handCount.get(minHeap.peek()) == 0) {
+                minHeap.poll();
+            }
+            //If the minHeap is empty before finding the next set of consecutive
+            // integers, exit from the loop. You can also return true.
+            if (minHeap.isEmpty()) {
+                break;
+            }
+            int curr = minHeap.peek();
+            for (int i=0; i<groupSize; i++) {
+                int card = curr + i;
+                //Check if current / next consecutive integer is present.
+                //If the next consecutive integer is in the map, it will be there in minheap as well.
+                if (handCount.get(card) == null || handCount.get(card) == 0) return false;
+                handCount.put(card, handCount.get(card) - 1);
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        // TODO: add sample calls for Hand of Straights
-        // Signature: public boolean isNStraightHand(int[] hand, int groupSize) {
-        }
+        System.out.println("LC 846: Hand of Straights — implement Solution then add sample calls here.");
+        System.out.println("Test case 1 " + (sol.isNStraightHand(new int[]{1,2,3,6,2,3,4,7,8}, 3) ? "PASS" : "FAILED")); // true
+        System.out.println("Test case 2 " + (sol.isNStraightHand(new int[]{1,2,3,4,5}, 4) ? "FAILED" : "PASS")); // false
+    }
 }
